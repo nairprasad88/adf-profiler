@@ -1,0 +1,11 @@
+# Azure Data Factory Extraction Script Dependencies
+# Install: pip install -r requirements.txt
+
+azure-identity>=1.15.0      # Azure authentication (DefaultAzureCredential)
+azure-mgmt-datafactory>=4.0.0  # ADF management SDK
+azure-mgmt-resource>=23.0.0    # Subscription/Resource Group discovery
+pandas>=2.0.0               # CSV export
+requests>=2.31.0            # HTTP calls (Synapse, Fabric APIs)
+aiohttp>=3.9.0              # Async HTTP (high-concurrency runtime profiling)
+certifi                     # CA certificate bundle (used by aiohttp SSL)
+tqdm>=4.66.0                # Progress bars
