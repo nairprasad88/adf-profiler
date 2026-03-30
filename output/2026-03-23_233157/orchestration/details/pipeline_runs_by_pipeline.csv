@@ -1,0 +1,12 @@
+factory_name,subscription_id,pipelineName,totalRuns,succeededRuns,failedRuns,cancelledRuns,inProgressRuns,successRate,avgDurationMin,maxDurationMin,minDurationMin,totalActivityRuns,totalCost,orchCost,ingestionCost,pipelineActCost,externalCost,subscription_name,runs_per_day_avg,runs_per_hour_avg
+adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,FileArrivalANDTableUpdate,42,0,42,0,0,0.0,0.14,0.29,0.08,42,0.0842,0.084,0.0,0.0,0.0002,azure-test-pm,0.47,0.0194
+adf-sash-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,sash-test-pipe-1,250,248,1,1,0,99.2,4.22,9.45,2.74,12661,13.0565,12.911,0.0,0.1455,0.0,field-eng,2.78,0.1157
+competitive-factory,5685e448-8271-4cf2-b2d2-4f030db888b9,control_flow,114,0,114,0,0,0.0,0.34,0.74,0.18,456,0.5719,0.57,0.0,0.0009,0.0009,azure-test-pm,1.27,0.0528
+adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,Multiple Schedules,42,0,42,0,0,0.0,0.14,0.33,0.08,42,0.0842,0.084,0.0,0.0,0.0002,azure-test-pm,0.47,0.0194
+adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,Execute Databricks Job using MI,42,0,42,0,0,0.0,0.19,0.35,0.12,42,0.0842,0.084,0.0,0.0,0.0002,azure-test-pm,0.47,0.0194
+bnelsondatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,pipeline1,45,0,45,0,0,0.0,2.86,4.03,2.12,45,0.0906,0.09,0.0,0.0,0.0006,field-eng,0.5,0.0208
+adf-adr,5685e448-8271-4cf2-b2d2-4f030db888b9,pl_ingest_ecdc_data,45,44,1,0,0,97.8,0.46,0.9,0.36,270,3.3154,0.315,3.0,0.0004,0.0,azure-test-pm,0.5,0.0208
+pmt-adf-eastus2-tahir,5685e448-8271-4cf2-b2d2-4f030db888b9,NativeDatabricksJobPipeline,2,1,1,0,0,50.0,0.47,0.93,0.02,1,0.003,0.003,0.0,0.0,0.0,azure-test-pm,0.02,0.0009
+pmt-adf-eastus2-tahir,5685e448-8271-4cf2-b2d2-4f030db888b9,TestDatabricksNotebookPipeline,1,1,0,0,0,100.0,5.79,5.79,5.79,1,0.002,0.002,0.0,0.0,0.0,azure-test-pm,0.01,0.0005
+pmt-adf-eastus2-tahir,5685e448-8271-4cf2-b2d2-4f030db888b9,TriggerServerlessDatabricksJob,1,1,0,0,0,100.0,0.88,0.88,0.88,4,0.005,0.005,0.0,0.0,0.0,azure-test-pm,0.01,0.0005
+steven-psa-orchestration,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,pipeline_table_ingestion,1,1,0,0,0,100.0,1.09,1.09,1.09,2,0.0197,0.003,0.0167,0.0,0.0,field-eng,0.01,0.0005

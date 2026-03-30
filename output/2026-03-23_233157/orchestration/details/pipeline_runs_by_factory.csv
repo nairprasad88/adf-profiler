@@ -1,0 +1,8 @@
+factory_name,subscription_id,total_runs,succeeded_runs,failed_runs,total_cost,orch_cost,ingestion_cost,pipeline_count,subscription_name,success_rate
+adf-adr,5685e448-8271-4cf2-b2d2-4f030db888b9,45,44,1,3.3154,0.315,3.0,1,azure-test-pm,97.8
+adf-sash-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,250,248,1,13.0565,12.911,0.0,1,field-eng,99.2
+adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,126,0,126,0.2526,0.252,0.0,3,azure-test-pm,0.0
+bnelsondatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,45,0,45,0.0906,0.09,0.0,1,field-eng,0.0
+competitive-factory,5685e448-8271-4cf2-b2d2-4f030db888b9,114,0,114,0.5719,0.57,0.0,1,azure-test-pm,0.0
+pmt-adf-eastus2-tahir,5685e448-8271-4cf2-b2d2-4f030db888b9,4,3,1,0.01,0.01,0.0,3,azure-test-pm,75.0
+steven-psa-orchestration,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,1,1,0,0.0197,0.003,0.0167,1,field-eng,100.0

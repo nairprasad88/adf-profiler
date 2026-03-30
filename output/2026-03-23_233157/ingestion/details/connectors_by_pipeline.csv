@@ -1,0 +1,67 @@
+pipeline_name,factory_name,subscription_id,subscription_name,copy_activity_count,distinct_source_connectors,distinct_sink_connectors
+005 - Ingest to Delta Lake via Copy,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+Copy Test,DemoTelevisa,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+CopyADLStoDeltaLake,adf-fe-uae-01,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+CopyDatabricksToADLS,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+CopyPipeline_Yellow_Parquet,tfayyaz-west-us-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,1,1,1
+CopyPipeline_adls_cosmos,adf-otis-cosmosdb,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+CopyPipeline_bn5,tfayyaz-ne-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,1,1,1
+CopyPipeline_g4l,ray-data-factory-1,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,1,1,1
+CopyPipeline_ivn,tfayyaz-ne-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,1,1,1
+CopyPipeline_jason_sftp_test_dale_server,pmt-adf-jason-ping-sftp,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,1,1,1
+CopyPipeline_jnq,rkh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+CopyPipeline_lem,ray-data-factory-1,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,1,1,1
+CopyPipeline_nmh,pmt-adf-jason-ping-sftp,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,1,1,1
+CopyPipeline_otis_adls_gen2,adf-otis-cosmosdb,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+CopyPipeline_vgw,rayzhu-sf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,1,1,1
+CopyPipeline_x9k,mm-test-df,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+CopyPipeline_zxz,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+Copy_JSON_to_Parquet_Snappy,tfayyaz-ne-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,2,1,1
+Copy_win_totals,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+DBSQL_ODBC,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+DatabricksNotebooks,adf-runs,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,1,1,1
+Databricks_Cluster_List_MI,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+Databricks_Cluster_List_and_Select_MI,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+Databricks_Cluster_test1,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+Delta-copyTo-fleetmaintenance,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+Delta-copyTo-fleetmaintenance2,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+DeltaLakeAccessUCDemo,adf-csc168,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+Excel,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+Extract Parquet to SQLDW,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+FullCopyPipeline,stuart-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+Import Telemetry,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+Import Telemetry 2,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+IncrementalCopyPipeline,stuart-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+Ingest AdventureWorksOLTP to Databricks Workflow,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,10,1,1
+Ingest AdventureWorksOLTP to Landing,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,10,1,1
+Ingest AdventureWorksOLTP to Landing Test,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,10,1,1
+Ingest AdventureWorksOLTP to Landing_JSON,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,10,1,1
+PL_GENERIC_INGEST_WATERMARK,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+PL_Generic_Full_Load,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+PL_Generic_SQL_CHANGETRACKING,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+PL_ODBC_Decrypt_Generic,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+csvToSql,ADF-kmati,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+dbrookes_sales_pipeline,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+dbx_scb_aj_copy_convert,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+fleetmaintenance-copy,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,2,1,1
+fleetmaintenance-copy_detailed,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,2,1,1
+fleetmaintenance-copy_toDelta,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+fleetmaintenance-copy_toDelta_copy1,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+fleetmaintenance-copy_usingJob,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,2,1,1
+mb-test,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+movefromcsv,rrcadfvivo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+pipe_zipper,cdg-rsm-tester,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+pipeline1,ADF-kmati,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+pipeline1,Jyo-1204-ADF-snowflake,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+pipeline1,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+pipeline1,mweu-adf-d-kanchwala-001,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+pipeline1,scott-black-data-factory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,2,1,1
+pipeline1,weather-pipeline-mglbe,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+pipeline2,bnelsondatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+pipeline2,ghanse-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,6,1,1
+pipeline2,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+pipeline5,adf-sash-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+sftp-to-adls-pipeline,jl-adf-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+sqldb_to_delta,ronguerreroadf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+sureshm_test1,fieldeng-migrations,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1
+wkmigrate_test_copy_simple,adf-wkmigrate-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,1,1,1

@@ -1,0 +1,16 @@
+connector_type,count_as_source,count_as_sink,factory_count,subscription_count
+Azure Cosmos DB,1,1,1,1
+Azure SQL Database,51,5,7,1
+Azure Synapse Analytics (SQL Pool),0,2,1,1
+Blob,1,1,1,1
+Databricks Delta Lake,7,5,8,2
+"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",66,103,30,2
+HTTP,2,0,2,1
+Microsoft Fabric Data Warehouse,0,16,1,0
+Microsoft Fabric Lakehouse,3,13,1,0
+ODBC,2,1,1,1
+REST API,3,0,1,1
+SFTP,2,0,1,1
+SQL Server (on-premises),7,0,3,1
+Salesforce,1,0,1,1
+Snowflake,1,0,1,1

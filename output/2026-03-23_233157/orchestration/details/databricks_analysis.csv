@@ -1,0 +1,216 @@
+pipeline_name,factory_name,factory_type,subscription_id,activity_name,activity_type,linked_service_name,compute_type_inferred,notebook_path,job_id,new_cluster_node_type,new_cluster_num_workers,new_cluster_version,existing_cluster_id,instance_pool_id,subscription_name
+Using_ADF_UA_MI,ganeshrj-mi-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Using ADF UA MI,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Using_ADF_MI_COnnection,ganeshrj-mi-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+TEST_MI,ganeshrj-mi-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,MapDFWF,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline2,MapDFWF,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dim_premises,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,dim_premises,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dim_person,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,dim_person,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dim_service_agreement,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,dim_service_agreement,DatabricksNotebook,,unknown,,,,,,,,field-eng
+exception testing,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Exception Testing,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dim_service_point,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,dim_service_point,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dim_account,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,dim_account,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Dynamic Tagging of Job Cluster,mido-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Hello World Notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+adf_test_jmr,jmradftest,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipelineJay,Jay-CanadaLife,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,NotebookJay,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Process Data with Databricks,aamindatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,dleiva-df,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,DemoNotebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipe_rsm_shared_policy,cdg-rsm-tester,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,nb_tester,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipe_rsm_single_policy,cdg-rsm-tester,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,nb_tester,DatabricksNotebook,,unknown,,,,,,,,field-eng
+stream-scoring-job,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,scoring,DatabricksNotebook,,unknown,,,,,,,,field-eng
+demo_dot,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Load To Bronze,DatabricksNotebook,,unknown,,,,,,,,field-eng
+office_hours_demo_pipeline,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Create Raw Delta,DatabricksNotebook,,unknown,,,,,,,,field-eng
+office_hours_demo_pipeline,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Bronze to Gold,DatabricksNotebook,,unknown,,,,,,,,field-eng
+office_hours_demo_pipeline,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Vaccum and  Zorder,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline2,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,ADF Notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+ExtractPDF,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,ExtractPDF,DatabricksNotebook,,unknown,,,,,,,,field-eng
+ExtractPDF,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,RawToGold,DatabricksNotebook,,unknown,,,,,,,,field-eng
+ExtractPDF,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,PushToSynapse,DatabricksNotebook,,unknown,,,,,,,,field-eng
+secretTestPipeline,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,secretTest,DatabricksNotebook,,unknown,,,,,,,,field-eng
+ProcessAirLineData,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Create Bronze Layer,DatabricksNotebook,,unknown,,,,,,,,field-eng
+ProcessAirLineData,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Bronze To Gold,DatabricksNotebook,,unknown,,,,,,,,field-eng
+ProcessAirLineData,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Optimize Tables,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline3,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Trigger DAIS Demo from,DatabricksNotebook,,unknown,,,,,,,,field-eng
+test_notebook_pipeline,ghanse-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,test_task_1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+test_notebook_pipeline,ghanse-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,test_task_2,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,adf-jovi-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Test Simple Notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+TestPython,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,TestPython,DatabricksSparkPython,,unknown,,,,,,,,field-eng
+adf_anf_test,anf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Test_anf,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook-jobs-cluster,lorenz-adf-demo-combined-serverless,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Step1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook-jobs-cluster,lorenz-adf-demo-combined-serverless,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Step2,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook-jobs-cluster,lorenz-adf-demo-combined-serverless,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Step3,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,anup-adf-explore,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,pn-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,pn-test-adf,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline2,adf-alexs-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+call_dbrx_notebook,Test-Databricks-Workflows-RunNow,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+test_hms_sample_ELC_pipe_val_uc,tek-adf-eastus,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sample append table,DatabricksNotebook,,unknown,,,,,,,,field-eng
+test_hms_sample_ELC_pipe_val_uc,tek-adf-eastus,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,sample update table,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Yet another Serverless Pipeline,Test-Databricks-Workflows-RunNow,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Teste Serverless Cost Optimized,DatabricksNotebook,,unknown,,,,,,,,field-eng
+test_hms_sample_ELC_pipe_val,tek-adf-eastus,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sample append table,DatabricksNotebook,,unknown,,,,,,,,field-eng
+test_hms_sample_ELC_pipe_val,tek-adf-eastus,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,sample update table,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Workspace_Init_Scripts,andreatardif,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Test_Notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+new_pipeline,maps-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,InitNotebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+thhart-filter-pii-pipeline,thhart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,thhart-filter-pii-pipeline,DatabricksNotebook,,unknown,,,,,,,,field-eng
+thhart-ocr-pipeline,thhart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,thhart-ocr-notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+lineage_issue_repro,adf-travislongwell,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Initial_datagen,DatabricksNotebook,,unknown,,,,,,,,field-eng
+lineage_issue_repro,adf-travislongwell,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Apples,DatabricksNotebook,,unknown,,,,,,,,field-eng
+lineage_issue_repro,adf-travislongwell,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Bananas,DatabricksNotebook,,unknown,,,,,,,,field-eng
+lineage_issue_repro,adf-travislongwell,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Inserts_updates_to_source,DatabricksNotebook,,unknown,,,,,,,,field-eng
+lineage_issue_repro,adf-travislongwell,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Apples_copy1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+lineage_issue_repro,adf-travislongwell,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Bananas_copy1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,maps-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,odoren-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,odoren-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook2,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dynamic_linked_service_for_db_cluster,maps-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,GetControlTableMetadata,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pl_databricks_demo_serverless,durak-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Execute_Data_Ingestion_Notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pl_databricks_demo_serverless,durak-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Execute_Data_Transformation_Notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pl_databricks_demo_serverless,durak-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Execute_Data_Export_Notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,ie-adf-01,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+test_pipeline,ppai-azure-df,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,dbx_notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dbrx_only_pipeline_test,ADFLLMCOLLABRSA,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,left_python,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dbrx_only_pipeline_test,ADFLLMCOLLABRSA,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,right_python,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dbrx_only_pipeline_test,ADFLLMCOLLABRSA,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,left_sql,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dbrx_only_pipeline_test,ADFLLMCOLLABRSA,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,right_sql,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dbrx_pipeline_test,ADFLLMCOLLABRSA,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Ingest,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dbrx_pipeline_test,ADFLLMCOLLABRSA,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Agg,DatabricksNotebook,,unknown,,,,,,,,field-eng
+cse_demo_pipeline,CSEdemoDataFactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,SalesETL,DatabricksNotebook,,unknown,,,,,,,,field-eng
+first_pipeline,CSEdemoDataFactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+fleetmaintenance-copy,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,execute batch delta load,DatabricksNotebook,,unknown,,,,,,,,field-eng
+fleetmaintenance-copy_detailed,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,execute batch delta load,DatabricksNotebook,,unknown,,,,,,,,field-eng
+ACL Testing,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+UC Test pipeline 2,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,UC Pipeline Test,DatabricksNotebook,,unknown,,,,,,,,field-eng
+UC Test pipeline,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,UC Pipeline Test,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Full Path,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+UC Test pipeline 3,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,UC Pipeline Test,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Ingest AdventureWorksOLTP to Landing Test,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,ADF Testing Pipeline Test,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Ingest AdventureWorksOLTP to Landing Test,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,UC Pipeline Test,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Ingest AdventureWorksOLTP to Landing Test,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,ADF Testing Pipeline Test 2,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Ingest AdventureWorksOLTP to Landing Test,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,UC Pipeline Test 2,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Ingest AdventureWorksOLTP to Landing Test,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,ADF Testing Pipeline Test 3,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Ingest AdventureWorksOLTP to Landing Test,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,UC Pipeline Test 3,DatabricksNotebook,,unknown,,,,,,,,field-eng
+User Assigned MI,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,adf-csc168,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,adf-csc168,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook2,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,adf-csc168,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook3,DatabricksNotebook,,unknown,,,,,,,,field-eng
+wkmigrate_test_variables,adf-wkmigrate-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,RunNotebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+UC_Demo_Pipeline,adf-csc168,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,UC_Demo,DatabricksNotebook,,unknown,,,,,,,,field-eng
+run-nb-test,uday-satapathy-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,create-df,DatabricksNotebook,,unknown,,,,,,,,field-eng
+run-nb-sp,uday-satapathy-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,spark-range-nb,DatabricksNotebook,,unknown,,,,,,,,field-eng
+P2,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+cb_cvs_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dbx-scb-udp,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,run_migration_workflow,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dbx_scb_aj_copy_convert,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,convertToDelta,DatabricksNotebook,,unknown,,,,,,,,field-eng
+010 - Job Cluster With Custom Policy,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Hello World Notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+dbx_scb_aj_copy,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,spark_r_w,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,run_notebook_from_adf,DatabricksNotebook,,unknown,,,,,,,,field-eng
+P1,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+01 - Init_Script_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Hello World Notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_interactive_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_interactive_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_interactive_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy2,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_interactive_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy3,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_interactive_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy4,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_interactive_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy5,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_interactive_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy6,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_interactive_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy7,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_interactive_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy8,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_interactive_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy9,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_interactive_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy10,DatabricksNotebook,,unknown,,,,,,,,field-eng
+esd_execute_pipe,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,ntb-instance-pool,DatabricksNotebook,,unknown,,,,,,,,field-eng
+init_script_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Hello World Notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline2,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+repsol_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Jar1,DatabricksSparkJar,,unknown,,,,,,,,field-eng
+999 - Multi Processing Concurrent Futures,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,multi_processing_concurrent_futures,DatabricksNotebook,,unknown,,,,,,,,field-eng
+test-ravi-pipeline,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Run-test-notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_job_pool_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_job_pool_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_job_pool_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy2,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_job_pool_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy3,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_job_pool_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy4,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_job_pool_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy5,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_job_pool_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy6,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_job_pool_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy7,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_job_pool_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy8,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_job_pool_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy9,DatabricksNotebook,,unknown,,,,,,,,field-eng
+notebook_trigger_parallel_job_pool_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Sleep notebook_copy10,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline2,pepsi0adf-test-nm001,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+vgd_init_script_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,read_excel,DatabricksNotebook,,unknown,,,,,,,,field-eng
+rs01_pwc_test_wf,adf-rohan-databricks,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+rs01_pwc_test_wf,adf-rohan-databricks,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1_copy1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+rs01_pwc_test_wf,adf-rohan-databricks,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1_copy1_copy1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+rs01_pwc_test_wf,adf-rohan-databricks,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1_copy1_copy2,DatabricksNotebook,,unknown,,,,,,,,field-eng
+test2,pepsi0adf-test-nm001,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+sash-test-create-temp-view-pipe,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+reynolds-pravindev-dbx-job,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,ClassicNotebookActivity,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Test01,pepsi0adf-test-nm001,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1_UC_workspace,vishu-adf-dbi,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1_standard_workspace,vishu-adf-dbi,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+scala code test run,vishu-adf-dbi,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+LyallADF,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+LyallADF,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook2,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1_premium_workspace,vishu-adf-dbi,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+sqldb_to_delta,ronguerreroadf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,merge_to_delta,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Import Telemetry 2,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,KSPcreateDeltaBatch,DatabricksNotebook,,unknown,,,,,,,,field-eng
+RunADBjob,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,DeltaLakeDemo,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Import Telemetry,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,KSPcreateDeltaBatch,DatabricksNotebook,,unknown,,,,,,,,field-eng
+MaxConcurrentRuns,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,ConcurrentRun,DatabricksNotebook,,unknown,,,,,,,,field-eng
+DatabricksParameter,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,ADFparameters,DatabricksNotebook,,unknown,,,,,,,,field-eng
+PermissionsTest,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,DeltaLakeDemo,DatabricksNotebook,,unknown,,,,,,,,field-eng
+TestPython,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Python Script,DatabricksSparkPython,,unknown,,,,,,,,field-eng
+DatabrickParametersReturn,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,DeltaLakeDemo,DatabricksNotebook,,unknown,,,,,,,,field-eng
+DatabricksParameterPool,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,ADFparameters,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Parent-Child-Test,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Parent Notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Databricks_Fullpath_Notebook_MI,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,FullPathNotebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Databricks_Interactive_Cluster,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Test Notebook,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Parametised_Interactive_Cluster,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Delta Notebook - Python,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Databricks_ClusterName2ClusterID_Interactive_Submit_Pipeline,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Delta Notebook - Python,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,apj-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+aso-pipeline-udmi-1,apj-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+aso-pipeline-udmi-2,apj-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+SimpleNotebook,adf-laurent,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Read Delta notebook 1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+SimpleNotebook,adf-laurent,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Read Delta Notebook 2,DatabricksNotebook,,unknown,,,,,,,,field-eng
+ADB_Test_Pool,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+taxi_data_pipeline,ps-west-europe-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Ingest raw files - Taxi,DatabricksNotebook,,unknown,,,,,,,,field-eng
+taxi_data_pipeline,ps-west-europe-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Bronze to Silver - Taxi,DatabricksNotebook,,unknown,,,,,,,,field-eng
+taxi_data_pipeline,ps-west-europe-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Zip code reference data,DatabricksNotebook,,unknown,,,,,,,,field-eng
+taxi_data_pipeline,ps-west-europe-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Silver to Gold - Taxi,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Pipeline-UC-Interactive,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pl_databricks_test,amanpsdatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,nb_dbricks,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pl_databricks_test,amanpsdatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,nb_dbricks_2,DatabricksNotebook,,unknown,,,,,,,,field-eng
+MedalionDatabricks,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Bronze,DatabricksNotebook,,unknown,,,,,,,,field-eng
+MedalionDatabricks,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Silver,DatabricksNotebook,,unknown,,,,,,,,field-eng
+MedalionDatabricks,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Gold,DatabricksNotebook,,unknown,,,,,,,,field-eng
+MedalionDatabricks2,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Bronze,DatabricksNotebook,,unknown,,,,,,,,field-eng
+MedalionDatabricks2,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Silver,DatabricksNotebook,,unknown,,,,,,,,field-eng
+MedalionDatabricks2,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Gold,DatabricksNotebook,,unknown,,,,,,,,field-eng
+taxi_data_pipeline_uc_migration,ps-west-europe-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Ingest raw files - Taxi,DatabricksNotebook,,unknown,,,,,,,,field-eng
+taxi_data_pipeline_uc_migration,ps-west-europe-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Bronze to Silver - Taxi,DatabricksNotebook,,unknown,,,,,,,,field-eng
+taxi_data_pipeline_uc_migration,ps-west-europe-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Zip code reference data,DatabricksNotebook,,unknown,,,,,,,,field-eng
+taxi_data_pipeline_uc_migration,ps-west-europe-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Silver to Gold - Taxi,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,adf-ut41f,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Testing,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Pipeline-UC-Job,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,adf-demo-snehil,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Parent,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,adf-demo-snehil,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Child,DatabricksNotebook,,unknown,,,,,,,,field-eng
+Execute notebook compute,monusine,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+ks02-notebook-test,ks02-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,ks02-notebook-test,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,bnelsondatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,covid append,DatabricksNotebook,,unknown,,,,,,,,field-eng
+tomi_dummy_pipeline,bnelsondatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,volvo-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipe_babynameProcess,wyiadf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Retrieve and save raw data,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipe_babynameProcess,wyiadf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Save data to delta,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipe_babynameProcess,wyiadf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,aggregate babynames,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,guanjie-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+managedIRtest,bnelsondatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,simpletest,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline2,chang-fwd-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Notebook1,DatabricksNotebook,,unknown,,,,,,,,field-eng
+pipeline1,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,Notebook1,DatabricksNotebook,,unknown,,,,,,,,azure-test-pm
+pipeline1,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,Notebook1_copy1,DatabricksNotebook,,unknown,,,,,,,,azure-test-pm
+databricks_uc_test_none_accessmode,pmt-adf-west-us,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,Notebook1,DatabricksNotebook,,unknown,,,,,,,,azure-test-pm
+databricks_uc_test_shared_policy,pmt-adf-west-us,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,Notebook1,DatabricksNotebook,,unknown,,,,,,,,azure-test-pm
+pl_adriana,pmt-adf-west-us,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,Ingest Circuits,DatabricksNotebook,,unknown,,,,,,,,azure-test-pm
+FileArrivalANDTableUpdate,adf-tanishq,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,HelloWorldFAT,DatabricksNotebook,,unknown,,,,,,,,azure-test-pm
+Multiple Schedules,adf-tanishq,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,HelloWorld,DatabricksNotebook,,unknown,,,,,,,,azure-test-pm
+HelloWorldManual,adf-tanishq,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,HelloWorldManual,DatabricksNotebook,,unknown,,,,,,,,azure-test-pm
+HelloWorld,adf-tanishq,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,HelloWorld,DatabricksNotebook,,unknown,,,,,,,,azure-test-pm
+TestDatabricksNotebookPipeline,pmt-adf-eastus2-tahir,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,RunTestNotebook,DatabricksNotebook,,unknown,,,,,,,,azure-test-pm

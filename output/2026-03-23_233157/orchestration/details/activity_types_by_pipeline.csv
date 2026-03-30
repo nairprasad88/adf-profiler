@@ -1,0 +1,551 @@
+pipeline_name,factory_name,subscription_id,subscription_name,activity_type,count
+001 - Run Workflow via Web API,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+001 - Run Workflow via Web API,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+002 - Run Serverless Workflow via Web API,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+002 - Run Serverless Workflow via Web API,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+005 - Ingest to Delta Lake via Copy,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+006 - Ingestion to Delta Lake with Data Flow,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+01 - Init_Script_test,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+010 - Job Cluster With Custom Policy,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+20250516_tech_brief,hinak-adf-ejp,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+999 - Multi Processing Concurrent Futures,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+ACL Testing,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+ADB_Test_Pool,AzureGoFast,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+ADF Calling Workflow Job,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+ADF and Perf-opt mode,Test-Databricks-Workflows-RunNow,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+ADF and Standard mode,Test-Databricks-Workflows-RunNow,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+AKV API Test,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Attempt 2,adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Until,1
+Attempt 2,adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,WebActivity,1
+Azure CDC,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+BulkCopyfromDB_with_ControlTable,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+BulkCopyfromDB_with_ControlTable,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,1
+ClusterIDLookup,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Copy Test,DemoTelevisa,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+CopyADLStoDeltaLake,adf-fe-uae-01,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+CopyAllTables,scott-black-data-factory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+CopyDatabricksToADLS,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+CopyPipeline_Yellow_Parquet,tfayyaz-west-us-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Copy,1
+CopyPipeline_adls_cosmos,adf-otis-cosmosdb,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+CopyPipeline_bn5,tfayyaz-ne-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Copy,1
+CopyPipeline_g4l,ray-data-factory-1,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Copy,1
+CopyPipeline_ivn,tfayyaz-ne-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Copy,1
+CopyPipeline_jason_sftp_test_dale_server,pmt-adf-jason-ping-sftp,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Copy,1
+CopyPipeline_jnq,rkh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+CopyPipeline_lem,ray-data-factory-1,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Copy,1
+CopyPipeline_nmh,pmt-adf-jason-ping-sftp,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Copy,1
+CopyPipeline_otis_adls_gen2,adf-otis-cosmosdb,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+CopyPipeline_vgw,rayzhu-sf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Copy,1
+CopyPipeline_x9k,mm-test-df,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+CopyPipeline_zxz,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+Copy_JSON_to_Parquet_Snappy,tfayyaz-ne-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Copy,2
+Copy_win_totals,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+DBSQL Execution_copy1,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+DBSQL Execution_copy2,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+DBSQL_Ingestion,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Switch,1
+DBSQL_Ingestion_copy11,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Switch,1
+DBSQL_ODBC,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+Data Flow with Delta,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+DataFlowTesting,adf-sash-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+DataFlowTesting_copy1,adf-sash-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+DatabrickParametersReturn,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+DatabrickParametersReturn,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,3
+Databricks - Run Serverless Notebook,kishoremannavaadffe,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Run Serverless Notebook,kishoremannavaadffe,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,2
+Databricks - Run Serverless Notebook,kishoremannavaadffe,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Run Serverless Notebook,kishoremannavaadffe,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,3
+Databricks - Run Serverless Notebook,lorenz-adf-demo-combined-serverless,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Run Serverless Notebook,lorenz-adf-demo-combined-serverless,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Databricks - Run Serverless Notebook,lorenz-adf-demo-combined-serverless,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Run Serverless Notebook,lorenz-adf-demo-combined-serverless,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+Databricks - Run Serverless Notebook,monusine,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Run Serverless Notebook,monusine,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,2
+Databricks - Run Serverless Notebook,monusine,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Run Serverless Notebook,monusine,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,3
+Databricks - Run Serverless Notebook,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Run Serverless Notebook,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,2
+Databricks - Run Serverless Notebook,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Run Serverless Notebook,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,3
+Databricks - Run Serverless Notebook,ps-west-europe-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Run Serverless Notebook,ps-west-europe-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,2
+Databricks - Run Serverless Notebook,ps-west-europe-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Run Serverless Notebook,ps-west-europe-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,3
+Databricks - Run Serverless Notebook,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Run Serverless Notebook,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Databricks - Run Serverless Notebook,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Run Serverless Notebook,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+Databricks - Run Serverless Notebook v2,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Run Serverless Notebook v2,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,2
+Databricks - Run Serverless Notebook v2,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Run Serverless Notebook v2,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,3
+Databricks - Run Serverless Notebook v2_ire,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Run Serverless Notebook v2_ire,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,2
+Databricks - Run Serverless Notebook v2_ire,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Run Serverless Notebook v2_ire,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,3
+Databricks - Trigger Workflow,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Trigger Workflow,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Databricks - Trigger Workflow,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Trigger Workflow,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+Databricks - Trigger Workflow,kishoremannavaadffe,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Trigger Workflow,kishoremannavaadffe,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Databricks - Trigger Workflow,kishoremannavaadffe,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Trigger Workflow,kishoremannavaadffe,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+Databricks - Trigger Workflow,lorenz-adf-demo-combined-serverless,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Trigger Workflow,lorenz-adf-demo-combined-serverless,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Databricks - Trigger Workflow,lorenz-adf-demo-combined-serverless,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Trigger Workflow,lorenz-adf-demo-combined-serverless,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+Databricks - Trigger Workflow,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Trigger Workflow,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Databricks - Trigger Workflow,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Trigger Workflow,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+Databricks - Trigger Workflow,ps-west-europe-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Trigger Workflow,ps-west-europe-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Databricks - Trigger Workflow,ps-west-europe-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Trigger Workflow,ps-west-europe-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+Databricks - Trigger Workflow,sz-adf-dbx2,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Trigger Workflow,sz-adf-dbx2,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Databricks - Trigger Workflow,sz-adf-dbx2,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Trigger Workflow,sz-adf-dbx2,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+Databricks - Trigger Workflow_Mido,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Trigger Workflow_Mido,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Databricks - Trigger Workflow_Mido,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Trigger Workflow_Mido,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+Databricks - Trigger Workflow_ire,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Databricks - Trigger Workflow_ire,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Databricks - Trigger Workflow_ire,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Databricks - Trigger Workflow_ire,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+DatabricksJobTrigger,test-adf-btafur,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+DatabricksJobTrigger,test-adf-btafur,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+DatabricksNotebooks,adf-runs,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Copy,1
+DatabricksParameter,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+DatabricksParameterPool,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+Databricks_ClusterName2ClusterID_Interactive_Submit,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,2
+Databricks_ClusterName2ClusterID_Interactive_Submit_Pipeline,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+Databricks_ClusterName2ClusterID_Interactive_Submit_Pipeline,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+Databricks_ClusterName2ClusterID_Interactive_Submit_Pipeline,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,1
+Databricks_Cluster_List_MI,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+Databricks_Cluster_List_and_Select_MI,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+Databricks_Cluster_List_and_Select_MI,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,1
+Databricks_Cluster_test1,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+Databricks_Fullpath_Notebook_MI,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+Databricks_Interactive_Cluster,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+Delta Sharing APIs,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+Delta Sharing APIs,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Delta Sharing APIs,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Delta Sharing APIs2,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Delta Sharing APIs2,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Delta Sharing APIs_copy1,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+Delta Sharing APIs_copy1,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Delta Sharing APIs_copy1,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Delta-copyTo-fleetmaintenance,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+Delta-copyTo-fleetmaintenance2,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+DeltaFlow_pipeline_Example,ganeshrj-df-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+DeltaLakeAccessUCDemo,adf-csc168,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+DeltaSinkPipe,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+Dynamic Tagging of Job Cluster,mido-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+End_2_End_Data_Loading,nshetty-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+Excel,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+Execute Databricks DLT Pipeline using MI,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Execute Databricks DLT Pipeline using MI,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+Execute Databricks Job - ADF MultiTask Test,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,1
+Execute Databricks Job Retail Workspace,fe-shared-ssa-latam-adf-001,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Execute Databricks Job Retail Workspace,fe-shared-ssa-latam-adf-001,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Execute Databricks Job Retail Workspace,fe-shared-ssa-latam-adf-001,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+Execute Databricks Job using MI,adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Until,1
+Execute Databricks Job using MI,adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,WebActivity,1
+Execute Databricks Job using MI,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Execute Databricks Job using MI,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Execute Databricks Job using MI with parms,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Execute Databricks Job using MI with parms,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Execute Databricks Job using MI with parms_noparms,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Execute Databricks Job using MI with parms_noparms,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Execute databricks job,volvo-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Execute databricks job,volvo-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Execute notebook compute,monusine,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+Execution Pipeline,invoke-db-workflow-db-job-cluster,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,1
+Extract Parquet to SQLDW,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+ExtractPDF,ganeshrj-df-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,3
+FileArrivalANDTableUpdate,adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,DatabricksNotebook,1
+Full Path,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+FullCopyPipeline,stuart-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+GetJobPermissions,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+HelloWorld,adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,DatabricksNotebook,1
+HelloWorldManual,adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,DatabricksNotebook,1
+Import Telemetry,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+Import Telemetry,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+Import Telemetry,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Delete,1
+Import Telemetry 2,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+Import Telemetry 2,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+Import Telemetry 2,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Delete,1
+IncrementalCopyPipeline,stuart-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+IncrementalCopyPipeline,stuart-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,2
+IncrementalCopyPipeline,stuart-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SqlServerStoredProcedure,1
+Ingest AdventureWorksOLTP to Databricks Workflow,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,10
+Ingest AdventureWorksOLTP to Databricks Workflow,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,1
+Ingest AdventureWorksOLTP to Landing,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,10
+Ingest AdventureWorksOLTP to Landing Test,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,10
+Ingest AdventureWorksOLTP to Landing Test,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,6
+Ingest AdventureWorksOLTP to Landing_JSON,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,10
+Jobactivity,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+LookupAndLoop,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+LookupAndLoop,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,1
+LyallADF,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,2
+LyallADFJobsPreview,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+MDF1,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+MT API Call,adf-laurent,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+MT API Call,adf-laurent,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+Master pipeline 2,adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,ExecutePipeline,1
+MaxConcurrentRuns,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+MedalionDatabricks,AzureGoFast,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,3
+MedalionDatabricks2,AzureGoFast,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,3
+MetadataDrivenCopyTask_nam_BottomLevel,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+MetadataDrivenCopyTask_nam_MiddleLevel,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+MetadataDrivenCopyTask_nam_TopLevel,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+MetadataDrivenCopyTask_nam_TopLevel,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,1
+MetadataDrivenCopyTask_tdk_BottomLevel,rayzhu-sf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,ForEach,1
+MetadataDrivenCopyTask_tdk_MiddleLevel,rayzhu-sf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,ForEach,1
+MetadataDrivenCopyTask_tdk_TopLevel,rayzhu-sf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,ForEach,1
+MetadataDrivenCopyTask_tdk_TopLevel,rayzhu-sf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Lookup,1
+Multiple Schedules,adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,DatabricksNotebook,1
+Native ADF Databricks Jobs Activity,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+Native ADF Databricks Jobs Activity_copy1,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+NativeDatabricksJobPipeline,pmt-adf-eastus2-tahir,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Unknown,1
+One-time Run - Serverless,canada-eh-data-factory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+One-time Run - Serverless,canada-eh-data-factory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+One-time Run - Serverless,canada-eh-data-factory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+One-time Run - Serverless,canada-eh-data-factory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+P1,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+P1,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,1
+P1,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Wait,2
+P2,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+P2,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,1
+P2,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Wait,2
+PAT API to AKV Secret,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+PB_ADF,Test-Databricks-Workflows-RunNow,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,2
+PL_EXEC_ADB_Workflow,ps-west-europe-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+PL_EXEC_ADB_Workflow,ps-west-europe-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+PL_EXEC_ADB_Workflow,ps-west-europe-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+PL_GENERIC_INGEST_WATERMARK,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+PL_GENERIC_INGEST_WATERMARK,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,2
+PL_GENERIC_INGEST_WATERMARK,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SqlServerStoredProcedure,3
+PL_GENERIC_SQL_CDC_INGEST,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+PL_GENERIC_SQL_CDC_INGEST,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,2
+PL_Generic_File_Load,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+PL_Generic_File_Load,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,GetMetadata,1
+PL_Generic_Full_Load,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+PL_Generic_Full_Load,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,GetMetadata,1
+PL_Generic_Full_Load,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+PL_Generic_Full_Load,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SqlServerStoredProcedure,2
+PL_Generic_Ingest_Executor,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+PL_Generic_Ingest_Executor,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,1
+PL_Generic_SQL_CHANGETRACKING,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+PL_Generic_SQL_CHANGETRACKING,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,2
+PL_Generic_SQL_CHANGETRACKING,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SqlServerStoredProcedure,3
+PL_ODBC_Decrypt_Generic,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+PL_ODBC_Decrypt_Generic,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,GetMetadata,1
+PL_ODBC_Decrypt_Generic,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+PL_ODBC_Decrypt_Generic,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SqlServerStoredProcedure,2
+Parametised_Interactive_Cluster,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+Parent-Child-Test,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+PermissionsTest,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+PermissionsTest,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+PermissionsTest,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Pipeline-UC-Interactive,AzureGoFast,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+Pipeline-UC-Job,AzureGoFast,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+Process Data with Databricks,aamindatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+ProcessAirLineData,ganeshrj-df-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,3
+ProcessAirLineData,ganeshrj-df-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+Register Delta Lake Folder As External Table in Unity Catalog,mido-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Reusable 2,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Reusable 2,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Reusable 3,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Reusable 3,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Run Now,aamindatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Run Now,aamindatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Run Serverless ADB Job REST,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+RunADBjob,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+SOAP_API_call,adf-demo-snehil,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+SOAP_API_call,adf-demo-snehil,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,1
+Serverless Jobs Test,canada-eh-data-factory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,1
+Serverless Pipeline,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,1
+ServerlessPipeline,maps-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+SetJobPermissions,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+SimpleNotebook,adf-laurent,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,2
+TEST_MI,ganeshrj-mi-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+TescoDBT,tesco-dbt,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Test01,pepsi0adf-test-nm001,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+TestDatabricksNotebookPipeline,pmt-adf-eastus2-tahir,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,DatabricksNotebook,1
+TestPython,ganeshrj-df-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksSparkPython,1
+TestPython,ganeshrj-df-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,2
+TestPython,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksSparkPython,1
+Tigger Serverless Notebook,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,1
+Trigger DB Workflow,invoke-db-workflow-db-job-cluster,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Trigger DB Workflow,invoke-db-workflow-db-job-cluster,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Trigger Workflow,canada-eh-data-factory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Trigger Workflow,canada-eh-data-factory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+Trigger Workflow,canada-eh-data-factory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Trigger Workflow,canada-eh-data-factory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+Trigger Workflow,invoke-db-workflow-db-job-cluster,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Trigger Workflow,invoke-db-workflow-db-job-cluster,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+Trigger Workflow,invoke-db-workflow-db-job-cluster,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+TriggerServerlessDatabricksJob,pmt-adf-eastus2-tahir,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Until,1
+TriggerServerlessDatabricksJob,pmt-adf-eastus2-tahir,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,WebActivity,1
+UC Test pipeline,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+UC Test pipeline 2,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+UC Test pipeline 3,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+UC_Demo_Pipeline,adf-csc168,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+User Assigned MI,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+Using_ADF_MI_COnnection,ganeshrj-mi-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+Using_ADF_UA_MI,ganeshrj-mi-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+VariablesScratch,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,2
+Web Activity Job Execution,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Web Activity Job Execution MI_2_0,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Web Activity Job Execution MI_2_1,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Web Activity Job Run MI_2_1,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Web Activity List Runs MI,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+Webhook-Example,kishoremannavaadffe,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+Workspace_Init_Scripts,andreatardif,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+Yet another Serverless Pipeline,Test-Databricks-Workflows-RunNow,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+Yet another Serverless Pipeline,Test-Databricks-Workflows-RunNow,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+adf-to-lf_job,demo-field-eng-east-adf-nb,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+adf_anf_test,anf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+adf_direct_job_run_example,adf-travislongwell,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+adf_test_jmr,jmradftest,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+aso-pipeline-udmi-1,apj-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+aso-pipeline-udmi-2,apj-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+bordgais_parallel,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,5
+bordgais_parallel,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Wait,2
+caio_adf_kmpg,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+call_dbrx_notebook,Test-Databricks-Workflows-RunNow,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+cb_cvs_test,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+control_flow,competitive-factory,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,ForEach,1
+control_flow,competitive-factory,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,IfCondition,1
+control_flow,competitive-factory,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,SetVariable,2
+copy_salesforce,bilal-salesforce-factory,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,ForEach,1
+cse_demo_pipeline,CSEdemoDataFactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+cse_demo_pipeline,CSEdemoDataFactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+csvToSql,ADF-kmati,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+csvtojson,jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+databricks_job_hello_world,tfayyaz-ne-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Until,1
+databricks_job_hello_world,tfayyaz-ne-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,WebActivity,1
+databricks_job_web_activity,tfayyaz-ne-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,AppendVariable,4
+databricks_job_web_activity,tfayyaz-ne-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Until,1
+databricks_job_web_activity,tfayyaz-ne-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,WebActivity,1
+databricks_orchestration,adf-jovi-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+databricks_uc_test_none_accessmode,pmt-adf-west-us,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,DatabricksNotebook,1
+databricks_uc_test_shared_policy,pmt-adf-west-us,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,DatabricksNotebook,1
+dbrookes_incremental_copy,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+dbrookes_incremental_copy,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+dbrookes_sales_pipeline,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+dbrookes_simple_pipeline,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+dbrx_only_pipeline_test,ADFLLMCOLLABRSA,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,4
+dbrx_pipeline_test,ADFLLMCOLLABRSA,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,2
+dbx-scb-aj-pl,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+dbx-scb-udp,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+dbx_scb_aj_copy,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+dbx_scb_aj_copy_convert,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+dbx_scb_aj_copy_convert,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+demo_dot,ganeshrj-df-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+dim_account,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+dim_person,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+dim_premises,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+dim_service_agreement,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+dim_service_point,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+dynamic_linked_service_for_db_cluster,maps-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+dynamic_linked_service_for_db_cluster,maps-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+esd_execute_pipe,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+exception testing,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+exception testing,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+first_pipeline,CSEdemoDataFactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+fleetmaintenance-copy,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,2
+fleetmaintenance-copy,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+fleetmaintenance-copy_detailed,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,2
+fleetmaintenance-copy_detailed,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+fleetmaintenance-copy_detailed,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,2
+fleetmaintenance-copy_detailed,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SqlServerStoredProcedure,2
+fleetmaintenance-copy_toDelta,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+fleetmaintenance-copy_toDelta_copy1,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+fleetmaintenance-copy_usingJob,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,2
+fleetmaintenance-copy_usingJob,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,1
+foreach-copy,Jyo-1204-ADF-snowflake,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+foreach-copy,Jyo-1204-ADF-snowflake,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,1
+foreach-copy_copy1,Jyo-1204-ADF-snowflake,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+foreach-copy_copy1,Jyo-1204-ADF-snowflake,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,1
+foreach-dataflow,Jyo-1204-ADF-snowflake,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+foreach-dataflow,Jyo-1204-ADF-snowflake,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,1
+foreach-dataflow_copy1,Jyo-1204-ADF-snowflake,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+foreach-dataflow_copy1,Jyo-1204-ADF-snowflake,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,1
+get-db-token-ws-level-m2m,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+init_script_test,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+ks02-notebook-test,ks02-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+lineage_issue_repro,adf-travislongwell,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,6
+managedIRtest,bnelsondatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+mb-test,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+mb-test,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+mido_dbx_job_call,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+movefromcsv,rrcadfvivo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+new_pipeline,maps-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+notebook-jobs-cluster,lorenz-adf-demo-combined-serverless,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,3
+notebook-serverless,lorenz-adf-demo-combined-serverless,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,3
+notebook_trigger_parallel_interactive_test,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,11
+notebook_trigger_parallel_job_pool_test,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,11
+office_hours_demo_pipeline,ganeshrj-df-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,3
+onboarding1,craig-test-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+onboarding1,craig-test-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+pawarit-adf-example,pawarit,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+pipe_babynameProcess,wyiadf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,3
+pipe_rsm_shared_policy,cdg-rsm-tester,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipe_rsm_single_policy,cdg-rsm-tester,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipe_zipper,cdg-rsm-tester,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+pipeline1,ADF-kmati,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+pipeline1,ADF-kmati,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Delete,1
+pipeline1,Jyo-1204-ADF-snowflake,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+pipeline1,MapDFWF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,abdi-test-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+pipeline1,adf-alexs-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+pipeline1,adf-csc168,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,3
+pipeline1,adf-demo-snehil,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,2
+pipeline1,adf-fries-mohammad-khelghati-databricks-com,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+pipeline1,adf-jaspertesting-001,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+pipeline1,adf-jovi-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,adf-sash-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+pipeline1,adf-ut41f,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,anup-adf-explore,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,apj-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,apj-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+pipeline1,bilal-cicd,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Wait,1
+pipeline1,bnelsondatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,dleiva-df,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,dthomfactorytest,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+pipeline1,fe-cis-imrans-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+pipeline1,ganeshrj-df-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,ghanse-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,1
+pipeline1,guanjie-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,ie-adf-01,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+pipeline1,maps-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,monusine,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+pipeline1,monusine,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,2
+pipeline1,monusine,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+pipeline1,mweu-adf-d-kanchwala-001,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+pipeline1,nl-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Wait,1
+pipeline1,odoren-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,2
+pipeline1,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,pn-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,rz-test-adf2,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Wait,1
+pipeline1,saad-dev-factory,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Wait,1
+pipeline1,scott-black-data-factory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,2
+pipeline1,test-adf-btafur,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+pipeline1,test-adf-btafur,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+pipeline1,test-adf-btafur,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+pipeline1,tfayyaz-ne-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,DatabricksNotebook,2
+pipeline1,volvo-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1,weather-pipeline-mglbe,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+pipeline1_UC_workspace,vishu-adf-dbi,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1_premium_workspace,vishu-adf-dbi,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline1_standard_workspace,vishu-adf-dbi,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline2,Jyo-1204-ADF-snowflake,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+pipeline2,MapDFWF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline2,adf-alexs-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline2,adf-demo-snehil,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+pipeline2,adf-demo-snehil,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,GetMetadata,1
+pipeline2,adf-fries-mohammad-khelghati-databricks-com,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+pipeline2,adf-fries-mohammad-khelghati-databricks-com,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+pipeline2,adf-jovi-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+pipeline2,adf-sash-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+pipeline2,bnelsondatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+pipeline2,chang-fwd-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline2,dleiva-df,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+pipeline2,ganeshrj-df-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline2,ghanse-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,6
+pipeline2,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline2,pepsi0adf-test-nm001,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline2,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+pipeline2,rz-test-adf2,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Wait,1
+pipeline2test,volvo-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+pipeline3,ganeshrj-df-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline3,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+pipeline4,adf-sash-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+pipeline4,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+pipeline4,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,1
+pipeline5,adf-sash-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+pipeline6,adf-sash-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+pipelineJay,Jay-CanadaLife,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+pipeline_orchestrate_sp,ADFLLMCOLLABRSA,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SqlServerStoredProcedure,3
+pipeline_run_workflow,adf-onno-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+pipeline_table_ingestion,steven-psa-orchestration,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+pl_adriana,pmt-adf-west-us,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,DatabricksNotebook,1
+pl_child_pipeline,amanpsdatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Wait,1
+pl_databricks_demo_serverless,durak-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,3
+pl_databricks_test,amanpsdatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,2
+pl_ingest_ecdc_data,adf-adr,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,ForEach,1
+pl_ingest_ecdc_data,adf-adr,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Lookup,1
+pl_ingest_population_data,adf-adr,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,GetMetadata,1
+pl_ingest_population_data,adf-adr,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,IfCondition,1
+pl_ingest_population_data,adf-adr,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Validation,1
+pl_parent_pipeline,amanpsdatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+pl_process_cases_and_deaths_data,adf-adr,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,ExecuteDataFlow,1
+re_use_pipe,adf-ut41f,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+re_use_pipe,adf-ut41f,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+read_delta_dataset,amanpsdatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+read_delta_dataset,amanpsdatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,2
+read_delta_dataset,amanpsdatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,2
+repsol_test,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksSparkJar,1
+reynolds-pravindev-dbx-job,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+reynolds-pravindev-dbx-job,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+rs01_pwc_test_wf,adf-rohan-databricks,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,4
+run-db-job,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+run-db-job,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+run-db-job,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+run-db-job-serverless,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+run-db-job-serverless,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+run-db-job-serverless,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+run-db-job-serverless-thru-sp,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+run-db-job-serverless-thru-sp,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+run-db-job-serverless-thru-sp,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+run-db-nb-job-one-time-serverless,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+run-db-nb-job-one-time-serverless,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+run-db-nb-job-one-time-serverless,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+run-nb-sp,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+run-nb-test,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+run-sql-job-and-get-output,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Filter,1
+run-sql-job-and-get-output,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,4
+run-sql-job-and-get-output,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+run-sql-job-and-get-output,uday-satapathy-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,3
+run_job,adf-ut41f,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,2
+run_job,adf-ut41f,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Until,1
+run_job,adf-ut41f,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+run_serverless_notebook,durak-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Unknown,1
+sash-test-create-temp-view-pipe,adf-sash-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+sash-test-pipe-1,adf-sash-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+scala code test run,vishu-adf-dbi,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+secretTestPipeline,ganeshrj-df-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+sftp-to-adls-pipeline,jl-adf-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+sqldb_to_delta,ronguerreroadf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+sqldb_to_delta,ronguerreroadf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+stream-scoring-job,stuart-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+sureshm_test1,fieldeng-migrations,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+taxi_data_pipeline,ps-west-europe-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,4
+taxi_data_pipeline_uc_migration,ps-west-europe-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,4
+test,peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecuteDataFlow,1
+test-ravi-pipeline,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+test2,pepsi0adf-test-nm001,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+test_hms_sample_ELC_pipe_val,tek-adf-eastus,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,2
+test_hms_sample_ELC_pipe_val_uc,tek-adf-eastus,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,2
+test_notebook_pipeline,ghanse-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,2
+test_pipeline,ppai-azure-df,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+thhart-filter-pii-pipeline,thhart-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+thhart-ocr-pipeline,thhart-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+tomi_dummy_pipeline,bnelsondatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+vgd_init_script_test,oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+wkmigrate_test_copy_simple,adf-wkmigrate-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Copy,1
+wkmigrate_test_foreach,adf-wkmigrate-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ForEach,1
+wkmigrate_test_ifcondition,adf-wkmigrate-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,IfCondition,1
+wkmigrate_test_lookup_web,adf-wkmigrate-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Lookup,1
+wkmigrate_test_lookup_web,adf-wkmigrate-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,WebActivity,1
+wkmigrate_test_variables,adf-wkmigrate-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,DatabricksNotebook,1
+wkmigrate_test_variables,adf-wkmigrate-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SetVariable,1
+workflow-jobs-cluster,lorenz-adf-demo-combined-serverless,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,1
+workflow-serverless,lorenz-adf-demo-combined-serverless,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,1
+wrapper_job,adf-travislongwell,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ExecutePipeline,1

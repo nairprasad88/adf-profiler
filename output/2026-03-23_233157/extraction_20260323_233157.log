@@ -1,0 +1,49 @@
+2026-03-23 23:31:57,146 [INFO] ============================================================
+2026-03-23 23:31:57,146 [INFO] Azure Data Factory Detailed Extraction Started
+2026-03-23 23:31:57,146 [INFO] ============================================================
+2026-03-23 23:31:57,146 [INFO] Python version: 3.14.1 (v3.14.1:57e0d177c26, Dec  2 2025, 08:45:31) [Clang 16.0.0 (clang-1600.0.26.6)]
+2026-03-23 23:31:57,146 [INFO] Working directory: /Users/isaac.gritz/fe-product-adoption/scripts/Lakeflow/ADF Profiler
+2026-03-23 23:31:57,146 [INFO] Output directory: ./output/2026-03-23_233157
+2026-03-23 23:31:57,146 [INFO] Max workers: 64
+2026-03-23 23:31:57,146 [INFO] Starting resource discovery
+2026-03-23 23:31:58,971 [INFO] Found 4 subscriptions
+2026-03-23 23:31:58,971 [INFO] Scanning subscription: azure-sandbox-dbsecurityssa (72d2cdcb-dd88-4ef9-a253-fd33245017d5)
+2026-03-23 23:32:01,219 [INFO] Scanning subscription: demo (ccb3ad09-cba9-44c2-b6c7-884753fcd58c)
+2026-03-23 23:32:02,764 [INFO] Scanning subscription: field-eng (3f2e4d32-8e8d-46d6-82bc-5bb8d962328b)
+2026-03-23 23:32:07,283 [INFO] Scanning subscription: azure-test-pm (5685e448-8271-4cf2-b2d2-4f030db888b9)
+2026-03-23 23:32:24,655 [WARNING] Synapse sanketsynapse: 403 Forbidden
+2026-03-23 23:32:24,757 [WARNING] Synapse aa-pbi-dev: 403 Forbidden
+2026-03-23 23:32:24,806 [WARNING] Synapse synapse-mohana-lakebridge: 403 Forbidden
+2026-03-23 23:32:24,816 [WARNING] Synapse lakebridge-profiler-demo: 403 Forbidden
+2026-03-23 23:32:24,833 [WARNING] Synapse lakehousefeddemo: 403 Forbidden
+2026-03-23 23:32:24,862 [WARNING] Synapse mglbetest2: 403 Forbidden
+2026-03-23 23:32:25,163 [WARNING] Synapse synapse-healthcare-advanced-1756964855: 403 Forbidden
+2026-03-23 23:32:25,350 [WARNING] Synapse andresg-sql-server-dw: 403 Forbidden
+2026-03-23 23:32:25,375 [WARNING] Synapse sprofiler-test: 403 Forbidden
+2026-03-23 23:32:25,378 [WARNING] Synapse isaac-synapse: 403 Forbidden
+2026-03-23 23:32:25,442 [WARNING] Synapse sabademo1: 403 Forbidden
+2026-03-23 23:32:25,449 [WARNING] Synapse jok-opnt-synapse: 403 Forbidden
+2026-03-23 23:32:25,453 [WARNING] Synapse nithyatest: 403 Forbidden
+2026-03-23 23:32:25,456 [WARNING] Synapse demos-mujahid: 403 Forbidden
+2026-03-23 23:32:25,460 [WARNING] Synapse ct-s01: 403 Forbidden
+2026-03-23 23:32:25,470 [WARNING] Synapse synapse-migration-demo: 403 Forbidden
+2026-03-23 23:32:25,490 [WARNING] Synapse atilaksynapsews: 403 Forbidden
+2026-03-23 23:32:25,537 [WARNING] Synapse demo-ayoub-ws: 403 Forbidden
+2026-03-23 23:32:25,549 [WARNING] Synapse test-workspace-2: 403 Forbidden
+2026-03-23 23:32:25,611 [WARNING] Synapse oneenvsql: 403 Forbidden
+2026-03-23 23:32:25,713 [WARNING] Synapse joksynapsews: 403 Forbidden
+2026-03-23 23:32:25,714 [WARNING] Synapse karthy-synapse-ws-new: 403 Forbidden
+2026-03-23 23:32:25,729 [WARNING] Synapse mglbe3: 403 Forbidden
+2026-03-23 23:32:25,964 [WARNING] Synapse synapse-profiler-workshop-ejp: 403 Forbidden
+2026-03-23 23:32:26,346 [WARNING] Synapse mms-synapse-ws: 403 Forbidden
+2026-03-23 23:32:28,985 [INFO] Found 1285 total resources to extract
+2026-03-23 23:32:53,678 [INFO] Pricing source: Azure Retail Prices API (eastus)
+2026-03-23 23:32:53,679 [INFO] Pricing rates (azure_ir): {'orchestration_per_1000': 1.0, 'data_movement_per_diu_hour': 0.25, 'pipeline_activity_per_hour': 0.00025, 'external_activity_per_hour': 0.00025}
+2026-03-23 23:34:24,519 [INFO] ============================================================
+2026-03-23 23:34:24,519 [INFO] Extraction Complete
+2026-03-23 23:34:24,519 [INFO] Total time: 0:02:27.372450
+2026-03-23 23:34:24,519 [INFO] Pipelines: 499
+2026-03-23 23:34:24,519 [INFO] Activities: 785
+2026-03-23 23:34:24,519 [INFO] Copy source types: {'AzureSqlDatabase': 51, 'AzureBlobFS (Binary)': 4, 'Snowflake': 1, 'AzureBlobStorage (Parquet)': 11, 'AzureBlobStorage (DelimitedText)': 9, 'SqlServer': 7, 'AzureBlobFS (Json)': 7, 'AzureBlobFS (DelimitedText)': 10, 'AzureDatabricksDeltaLakeDataset': 5, 'AzureBlobStorage (Json)': 2, 'AzureBlobFS (Parquet)': 6, 'AzureDatabricksDeltaLake': 2, 'Odbc': 2, 'AzureBlobFS (Excel)': 1, 'Blob': 1, 'HttpServer (DelimitedText)': 2, 'AzureBlobStorage (Binary)': 2, 'RestService': 3, 'CosmosDb': 1, 'Salesforce': 1, 'Sftp (Binary)': 1, 'DelimitedText': 13, 'Sftp (DelimitedText)': 1, 'LakehouseTable': 3, 'Json': 1}
+2026-03-23 23:34:24,519 [INFO] Copy sink types: {'AzureDatabricksDeltaLakeDataset': 5, 'AzureBlobFS (Binary)': 4, 'AzureBlobStorage (Parquet)': 2, 'AzureBlobStorage (Avro)': 1, 'AzureBlobFS (Parquet)': 51, 'AzureBlobFS (DelimitedText)': 16, 'AzureBlobFS (Json)': 12, 'AzureSqlDatabase': 5, 'AzureBlobStorage (DelimitedText)': 7, 'AzureBlobFS': 2, 'Odbc': 1, 'Blob': 1, 'AzureSqlDW': 2, 'AzureBlobStorage (Binary)': 2, 'CosmosDb': 1, 'AzureFileStorage (Binary)': 1, 'DataWarehouse': 16, 'LakehouseTable': 13, 'AzureFileStorage (DelimitedText)': 1, 'DelimitedText': 1, 'Json': 2, 'Parquet': 1}
+2026-03-23 23:34:24,519 [INFO] WebActivity APIs: {'Unknown': 111}

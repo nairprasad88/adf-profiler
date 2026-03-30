@@ -1,0 +1,12 @@
+factory_name,subscription_id,subscription_name,pipeline_name,orchestration_fee,pipeline_activity_cost,external_activity_cost,orchestration_total,total_runs
+adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,FileArrivalANDTableUpdate,0.084,0.0,0.0002,0.0842,42
+adf-sash-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,sash-test-pipe-1,12.911,0.1455,0.0,13.0565,250
+competitive-factory,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,control_flow,0.57,0.0009,0.0009,0.5718,114
+adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Multiple Schedules,0.084,0.0,0.0002,0.0842,42
+adf-tanishq,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Execute Databricks Job using MI,0.084,0.0,0.0002,0.0842,42
+bnelsondatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,pipeline1,0.09,0.0,0.0006,0.0906,45
+adf-adr,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,pl_ingest_ecdc_data,0.315,0.0004,0.0,0.3154,45
+pmt-adf-eastus2-tahir,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,NativeDatabricksJobPipeline,0.003,0.0,0.0,0.003,2
+pmt-adf-eastus2-tahir,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,TestDatabricksNotebookPipeline,0.002,0.0,0.0,0.002,1
+pmt-adf-eastus2-tahir,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,TriggerServerlessDatabricksJob,0.005,0.0,0.0,0.005,1
+steven-psa-orchestration,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,pipeline_table_ingestion,0.003,0.0,0.0,0.003,1

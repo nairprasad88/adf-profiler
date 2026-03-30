@@ -1,0 +1,3 @@
+subscription_id,total_copy_runs,total_data_read_bytes,total_data_written_bytes,total_estimated_cost,factory_count,subscription_name,projected_monthly_cost
+3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,1,24616,1588,0.017667,1,field-eng,0.0059
+5685e448-8271-4cf2-b2d2-4f030db888b9,180,703571598,703571598,3.1800599999999997,1,azure-test-pm,1.06

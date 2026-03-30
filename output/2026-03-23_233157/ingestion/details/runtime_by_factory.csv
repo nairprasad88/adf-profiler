@@ -1,0 +1,3 @@
+factory_name,subscription_id,total_copy_runs,total_data_read_bytes,total_data_written_bytes,total_rows_copied,total_estimated_cost,subscription_name,projected_monthly_cost
+adf-adr,5685e448-8271-4cf2-b2d2-4f030db888b9,180,703571598,703571598,0,3.1800599999999997,azure-test-pm,1.06
+steven-psa-orchestration,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,1,24616,1588,8,0.017667,field-eng,0.0059

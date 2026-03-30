@@ -1,0 +1,57 @@
+factory_name,subscription_id,subscription_name,connector_type,count_as_source,count_as_sink
+ADF-kmati,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Azure SQL Database,0,1
+ADF-kmati,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",2,1
+DemoTelevisa,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",1,1
+Jyo-1204-ADF-snowflake,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",0,1
+Jyo-1204-ADF-snowflake,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Snowflake,1,0
+adf-csc168,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Databricks Delta Lake,1,0
+adf-csc168,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",0,1
+adf-fe-uae-01,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Databricks Delta Lake,0,1
+adf-fe-uae-01,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",1,0
+adf-otis-cosmosdb,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Azure Cosmos DB,1,1
+adf-otis-cosmosdb,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",1,1
+adf-runs,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",0,1
+adf-runs,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Salesforce,1,0
+adf-sash-demo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",1,1
+adf-wkmigrate-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Blob,1,1
+bnelsondatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Databricks Delta Lake,1,0
+bnelsondatafactory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",0,1
+cdg-rsm-tester,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",1,1
+fieldeng-migrations,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",1,1
+ghanse-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",6,6
+jl-adf-test,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",1,1
+jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Azure SQL Database,1,0
+jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Azure Synapse Analytics (SQL Pool),0,2
+jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",3,5
+jok-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,REST API,3,0
+laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Azure SQL Database,47,2
+laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Databricks Delta Lake,2,2
+laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",3,52
+laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ODBC,2,1
+laf-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SQL Server (on-premises),3,0
+mm-test-df,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Databricks Delta Lake,1,0
+mm-test-df,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",0,1
+mweu-adf-d-kanchwala-001,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",1,1
+oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Azure SQL Database,1,1
+oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Databricks Delta Lake,2,0
+oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",2,5
+oneenv-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,HTTP,1,0
+peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Azure SQL Database,1,0
+peteh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Databricks Delta Lake,0,1
+pmt-adf-jason-ping-sftp,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",0,2
+pmt-adf-jason-ping-sftp,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,SFTP,2,0
+ray-data-factory-1,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",2,2
+rayzhu-sf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",1,1
+rkh-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",1,1
+ronguerreroadf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Azure SQL Database,1,0
+ronguerreroadf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",0,1
+rrcadfvivo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Azure SQL Database,0,1
+rrcadfvivo,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",1,0
+scott-black-data-factory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",0,2
+scott-black-data-factory,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SQL Server (on-premises),2,0
+stuart-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",0,2
+stuart-adf,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SQL Server (on-premises),2,0
+tfayyaz-ne-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",4,4
+tfayyaz-west-us-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Databricks Delta Lake,0,1
+tfayyaz-west-us-adf,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",1,0
+weather-pipeline-mglbe,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",1,1

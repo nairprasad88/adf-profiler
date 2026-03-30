@@ -1,0 +1,412 @@
+pipeline_name,factory_name,factory_type,subscription_id,is_metadata_driven,confidence,signals_found,parameter_count,variable_count,has_foreach_executepipeline,has_parameterized_datasets,metadata_param_count,template_group_id,subscription_name
+Using_ADF_UA_MI,ganeshrj-mi-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Using_ADF_MI_COnnection,ganeshrj-mi-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+TEST_MI,ganeshrj-mi-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipeline1,MapDFWF,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipeline2,MapDFWF,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Execute Databricks Job Retail Workspace,fe-shared-ssa-latam-adf-001,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,2,False,False,0,537961930653146962,field-eng
+test,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6588731230599605687,field-eng
+dim_premises,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+dim_person,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipeline3,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6588731230599605687,field-eng
+pipeline1,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+dim_service_agreement,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+bordgais_parallel,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,5772740097886911935,field-eng
+exception testing,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,1,False,False,0,-4997369083989698918,field-eng
+pipeline2,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+pipeline4,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,1,False,False,0,-2631841894733265129,field-eng
+dim_service_point,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+dim_account,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Dynamic Tagging of Job Cluster,mido-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,-2241954787027104022,field-eng
+Trigger Workflow,invoke-db-workflow-db-job-cluster,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,1,False,False,0,7582014479619549700,field-eng
+Register Delta Lake Folder As External Table in Unity Catalog,mido-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6267778854561202462,field-eng
+Execution Pipeline,invoke-db-workflow-db-job-cluster,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1458777991191879360,field-eng
+Trigger DB Workflow,invoke-db-workflow-db-job-cluster,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,1,False,False,0,-4840318173885224883,field-eng
+CopyPipeline_jnq,rkh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+adf_test_jmr,jmradftest,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,-2241954787027104022,field-eng
+pipelineJay,Jay-CanadaLife,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pawarit-adf-example,pawarit,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6267778854561202462,field-eng
+pipeline1,abdi-test-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,-8753497827991233192,field-eng
+foreach-dataflow_copy1,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,0,False,False,2,-2631841894733265129,field-eng
+foreach-dataflow,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,0,False,False,2,-2631841894733265129,field-eng
+pipeline1,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+pipeline2,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6588731230599605687,field-eng
+foreach-copy_copy1,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,0,False,False,2,-2631841894733265129,field-eng
+foreach-copy,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,0,False,False,2,-2631841894733265129,field-eng
+sureshm_test1,fieldeng-migrations,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+Run Now,aamindatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,1,False,False,0,-4840318173885224883,field-eng
+Process Data with Databricks,aamindatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipeline1,nl-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,1506450934327738926,field-eng
+pipeline1,dleiva-df,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipeline1,weather-pipeline-mglbe,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+pipeline2,dleiva-df,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+pipe_rsm_shared_policy,cdg-rsm-tester,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipe_rsm_single_policy,cdg-rsm-tester,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+sftp-to-adls-pipeline,jl-adf-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+pipe_zipper,cdg-rsm-tester,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+IncrementalCopyPipeline,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-4409325256283945593,field-eng
+stream-scoring-job,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+demo_dot,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,-2241954787027104022,field-eng
+office_hours_demo_pipeline,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1605358778252954976,field-eng
+pipeline2,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+ExtractPDF,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1605358778252954976,field-eng
+secretTestPipeline,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,-2241954787027104022,field-eng
+ProcessAirLineData,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1869844903850777640,field-eng
+DeltaFlow_pipeline_Example,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6588731230599605687,field-eng
+FullCopyPipeline,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+pipeline1,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipeline3,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+test_notebook_pipeline,ghanse-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,7908883273554468382,field-eng
+pipeline2,adf-jovi-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+pipeline1,adf-jovi-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+databricks_orchestration,adf-jovi-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,0,False,False,0,6267778854561202462,field-eng
+TestPython,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,2,False,False,0,5373624694290585597,field-eng
+adf_anf_test,anf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+notebook-jobs-cluster,lorenz-adf-demo-combined-serverless,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1605358778252954976,field-eng
+pipeline1,anup-adf-explore,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+notebook-serverless,lorenz-adf-demo-combined-serverless,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-3402209870482300226,field-eng
+Databricks - Trigger Workflow,lorenz-adf-demo-combined-serverless,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,1,False,False,0,-799679732793681488,field-eng
+Databricks - Run Serverless Notebook,lorenz-adf-demo-combined-serverless,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,5,1,False,False,0,-799679732793681488,field-eng
+pipeline1,pn-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+PB_ADF,Test-Databricks-Workflows-RunNow,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,0,False,False,1,-8458139203682520985,field-eng
+workflow-serverless,lorenz-adf-demo-combined-serverless,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1458777991191879360,field-eng
+pipeline1,adf-alexs-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,1,False,False,0,-8753497827991233192,field-eng
+pipeline2,adf-alexs-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+TescoDBT,tesco-dbt,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,1,False,False,0,6267778854561202462,field-eng
+pipeline2,ghanse-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,324472573106623675,field-eng
+pipeline1,ghanse-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-5825256782664959786,field-eng
+call_dbrx_notebook,Test-Databricks-Workflows-RunNow,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+test_hms_sample_ELC_pipe_val_uc,tek-adf-eastus,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,1,False,False,0,7908883273554468382,field-eng
+Yet another Serverless Pipeline,Test-Databricks-Workflows-RunNow,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1946596162718391815,field-eng
+workflow-jobs-cluster,lorenz-adf-demo-combined-serverless,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1458777991191879360,field-eng
+pipeline1,fe-cis-imrans-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+Databricks - Trigger Workflow,fe-cis-imrans-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,1,False,False,0,-799679732793681488,field-eng
+test_hms_sample_ELC_pipe_val,tek-adf-eastus,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,1,False,False,0,7908883273554468382,field-eng
+Workspace_Init_Scripts,andreatardif,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Databricks - Run Serverless Notebook v2_ire,fe-cis-imrans-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,5,1,False,False,0,885399939751762415,field-eng
+csvToSql,ADF-kmati,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+Databricks - Run Serverless Notebook v2,fe-cis-imrans-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,5,1,False,False,0,885399939751762415,field-eng
+ADF and Standard mode,Test-Databricks-Workflows-RunNow,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+new_pipeline,maps-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Databricks - Trigger Workflow_ire,fe-cis-imrans-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,1,False,False,0,-799679732793681488,field-eng
+Serverless Pipeline,fe-cis-imrans-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1458777991191879360,field-eng
+ADF and Perf-opt mode,Test-Databricks-Workflows-RunNow,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+ServerlessPipeline,maps-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+thhart-filter-pii-pipeline,thhart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,0,False,False,0,-2241954787027104022,field-eng
+thhart-ocr-pipeline,thhart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,0,False,False,0,-2241954787027104022,field-eng
+pipeline_run_workflow,adf-onno-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+CopyPipeline_x9k,mm-test-df,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+pipeline1,ADF-kmati,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2983110488416311146,field-eng
+lineage_issue_repro,adf-travislongwell,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,0,False,False,0,-3799331711355230949,field-eng
+adf_direct_job_run_example,adf-travislongwell,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,-8753497827991233192,field-eng
+pipeline1,maps-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipeline1,odoren-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,7908883273554468382,field-eng
+run_serverless_notebook,durak-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+pipeline1,rz-test-adf2,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,1506450934327738926,field-eng
+dynamic_linked_service_for_db_cluster,maps-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,0,False,False,0,4932697301434097089,field-eng
+pl_databricks_demo_serverless,durak-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,0,False,False,0,-1605358778252954976,field-eng
+pipeline1,ie-adf-01,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Databricks - Trigger Workflow,sz-adf-dbx2,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,1,False,False,0,-799679732793681488,field-eng
+wrapper_job,adf-travislongwell,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1458777991191879360,field-eng
+Copy Test,DemoTelevisa,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+test_pipeline,ppai-azure-df,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipeline2,rz-test-adf2,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,1506450934327738926,field-eng
+CopyAllTables,scott-black-data-factory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,1784216642942851348,field-eng
+pipeline_table_ingestion,steven-psa-orchestration,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,0,False,False,0,1784216642942851348,field-eng
+pipeline1,scott-black-data-factory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,3981341635124570997,field-eng
+dbrx_only_pipeline_test,ADFLLMCOLLABRSA,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,7746213152232064267,field-eng
+dbrx_pipeline_test,ADFLLMCOLLABRSA,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,7908883273554468382,field-eng
+pipeline_orchestrate_sp,ADFLLMCOLLABRSA,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-7237440426744578092,field-eng
+cse_demo_pipeline,CSEdemoDataFactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,0,False,False,0,7010361463613772984,field-eng
+first_pipeline,CSEdemoDataFactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,-2241954787027104022,field-eng
+MetadataDrivenCopyTask_nam_BottomLevel,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,1,False,False,0,1784216642942851348,field-eng
+Ingest AdventureWorksOLTP to Landing,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,0,0,False,True,0,5020066256242326984,field-eng
+MetadataDrivenCopyTask_nam_MiddleLevel,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,7,0,False,False,1,1784216642942851348,field-eng
+MetadataDrivenCopyTask_nam_TopLevel,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,0,False,False,1,-2631841894733265129,field-eng
+Ingest AdventureWorksOLTP to Landing_JSON,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,0,0,False,True,0,5020066256242326984,field-eng
+Execute Databricks Job using MI with parms,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,1,False,False,0,-4840318173885224883,field-eng
+Web Activity Job Execution,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6267778854561202462,field-eng
+Execute Databricks Job using MI with parms_noparms,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,1,False,False,0,-4840318173885224883,field-eng
+Web Activity Job Run MI_2_1,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6267778854561202462,field-eng
+fleetmaintenance-copy_toDelta_copy1,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,0,0,False,True,0,2986451988485003859,field-eng
+fleetmaintenance-copy_toDelta,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,0,0,False,True,0,2986451988485003859,field-eng
+Execute Databricks Job using MI,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,1,False,False,0,-4840318173885224883,field-eng
+Web Activity List Runs MI,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6267778854561202462,field-eng
+Delta-copyTo-fleetmaintenance2,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+End_2_End_Data_Loading,nshetty-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,1,False,False,0,1784216642942851348,field-eng
+Data Flow with Delta,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6588731230599605687,field-eng
+Web Activity Job Execution MI_2_0,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6267778854561202462,field-eng
+Execute Databricks Job - ADF MultiTask Test,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1458777991191879360,field-eng
+Delta Sharing APIs2,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,1,False,False,0,-7583853073290425413,field-eng
+fleetmaintenance-copy,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,0,0,False,True,0,-4430719542637160689,field-eng
+AKV API Test,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,1,False,False,0,6267778854561202462,field-eng
+DBSQL_ODBC,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+fleetmaintenance-copy_detailed,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,0,0,False,True,0,8875973882079193388,field-eng
+Web Activity Job Execution MI_2_1,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6267778854561202462,field-eng
+ACL Testing,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+UC Test pipeline 2,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Execute Databricks DLT Pipeline using MI,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,1,False,False,0,6338217463165230401,field-eng
+UC Test pipeline,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Full Path,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Delta Sharing APIs,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,2,False,False,0,-2255230983346313866,field-eng
+PL_ODBC_Decrypt_Generic,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,7,0,False,True,2,6012635420841798744,field-eng
+PAT API to AKV Secret,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,1,False,False,0,-2764960385373764066,field-eng
+UC Test pipeline 3,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Delta Sharing APIs_copy1,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,2,False,False,0,-2255230983346313866,field-eng
+PL_Generic_File_Load,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,0,False,False,0,2771063070316373290,field-eng
+PL_Generic_SQL_CHANGETRACKING,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,8,1,False,True,2,-7975684278390257131,field-eng
+Ingest AdventureWorksOLTP to Databricks Workflow,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,0,0,False,True,0,4586041929546577993,field-eng
+Ingest AdventureWorksOLTP to Landing Test,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,0,0,False,True,0,2300812119686244111,field-eng
+Native ADF Databricks Jobs Activity_copy1,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+DBSQL_Ingestion,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,10,0,False,False,1,-5202129459288409548,field-eng
+PL_Generic_Ingest_Executor,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2631841894733265129,field-eng
+Delta-copyTo-fleetmaintenance,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,0,0,False,True,0,2986451988485003859,field-eng
+DBSQL Execution_copy1,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,8,0,False,False,1,6267778854561202462,field-eng
+PL_GENERIC_INGEST_WATERMARK,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Yes,High,"metadata_params(3), parameterized_datasets",8,0,False,True,3,-7975684278390257131,field-eng
+DBSQL_Ingestion_copy11,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,11,0,False,False,1,-5202129459288409548,field-eng
+Excel,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,0,0,False,True,0,2986451988485003859,field-eng
+User Assigned MI,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+DBSQL Execution_copy2,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,10,0,False,False,1,-8711057275027517548,field-eng
+PL_GENERIC_SQL_CDC_INGEST,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,9,1,False,False,2,922501405378201760,field-eng
+Native ADF Databricks Jobs Activity,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,-8753497827991233192,field-eng
+fleetmaintenance-copy_usingJob,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,0,0,False,True,0,3398486541832920798,field-eng
+BulkCopyfromDB_with_ControlTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,metadata_params(3),6,0,False,False,3,-2631841894733265129,field-eng
+PL_Generic_Full_Load,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,10,0,False,True,2,6012635420841798744,field-eng
+run-db-job,uday-satapathy-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,6,2,False,False,0,7204590475886109268,field-eng
+pipeline1,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+Jobactivity,uday-satapathy-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+Webhook-Example,kishoremannavaadffe,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,1,False,False,0,-8711057275027517548,field-eng
+pipeline1,adf-csc168,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1605358778252954976,field-eng
+DeltaLakeAccessUCDemo,adf-csc168,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+wkmigrate_test_ifcondition,adf-wkmigrate-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,-8711057275027517548,field-eng
+wkmigrate_test_copy_simple,adf-wkmigrate-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,0,False,False,0,2986451988485003859,field-eng
+wkmigrate_test_foreach,adf-wkmigrate-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,1784216642942851348,field-eng
+wkmigrate_test_variables,adf-wkmigrate-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,1,False,False,0,-4997369083989698918,field-eng
+wkmigrate_test_lookup_web,adf-wkmigrate-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,3240876294750078122,field-eng
+UC_Demo_Pipeline,adf-csc168,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+run-db-job-serverless,uday-satapathy-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,6,2,False,False,0,7204590475886109268,field-eng
+run-db-nb-job-one-time-serverless,uday-satapathy-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,7,2,False,False,0,7204590475886109268,field-eng
+Databricks - Run Serverless Notebook,kishoremannavaadffe,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,5,1,False,False,0,885399939751762415,field-eng
+run-nb-test,uday-satapathy-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+run-sql-job-and-get-output,uday-satapathy-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,6,4,False,False,0,7465610107184219595,field-eng
+adf-to-lf_job,demo-field-eng-east-adf-nb,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+run-db-job-serverless-thru-sp,uday-satapathy-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,6,2,False,False,0,7204590475886109268,field-eng
+pipeline1,dthomfactorytest,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6588731230599605687,field-eng
+run-nb-sp,uday-satapathy-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+get-db-token-ws-level-m2m,uday-satapathy-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,3,False,False,0,6267778854561202462,field-eng
+Databricks - Run Serverless Notebook,uday-satapathy-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,5,1,False,False,0,-799679732793681488,field-eng
+Databricks - Trigger Workflow,kishoremannavaadffe,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,2,False,False,0,-799679732793681488,field-eng
+P2,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,3252315293456171288,field-eng
+001 - Run Workflow via Web API,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,1,False,False,0,-4840318173885224883,field-eng
+cb_cvs_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+dbx-scb-aj-pl,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6588731230599605687,field-eng
+Reusable 2,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,1,False,False,0,-4840318173885224883,field-eng
+dbrookes_sales_pipeline,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,2,0,False,True,0,2986451988485003859,field-eng
+dbrookes_simple_pipeline,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,0,False,False,0,6267778854561202462,field-eng
+dbx-scb-udp,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+dbx_scb_aj_copy_convert,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,5798964148247319941,field-eng
+005 - Ingest to Delta Lake via Copy,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+Reusable 3,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,1,False,False,0,-4840318173885224883,field-eng
+010 - Job Cluster With Custom Policy,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Tigger Serverless Notebook,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1458777991191879360,field-eng
+dbx_scb_aj_copy,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipeline1,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+P1,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,3252315293456171288,field-eng
+Databricks - Trigger Workflow,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,1,False,False,0,-799679732793681488,field-eng
+002 - Run Serverless Workflow via Web API,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,1,False,False,0,-4840318173885224883,field-eng
+006 - Ingestion to Delta Lake with Data Flow,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6588731230599605687,field-eng
+01 - Init_Script_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+notebook_trigger_parallel_interactive_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-4910420182769225013,field-eng
+esd_execute_pipe,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+ADF Calling Workflow Job,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,1,False,False,0,-8753497827991233192,field-eng
+init_script_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+dbrookes_incremental_copy,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,1,False,False,0,-7583853073290425413,field-eng
+mido_dbx_job_call,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+pipeline2,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+repsol_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,4978897674873556746,field-eng
+999 - Multi Processing Concurrent Futures,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Databricks - Run Serverless Notebook,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,5,1,False,False,0,885399939751762415,field-eng
+test-ravi-pipeline,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Copy_win_totals,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+notebook_trigger_parallel_job_pool_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-4910420182769225013,field-eng
+CopyDatabricksToADLS,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+pipeline2,pepsi0adf-test-nm001,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+vgd_init_script_test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+caio_adf_kmpg,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+rs01_pwc_test_wf,adf-rohan-databricks,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,7746213152232064267,field-eng
+Databricks - Trigger Workflow_Mido,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,1,False,False,0,-799679732793681488,field-eng
+test2,pepsi0adf-test-nm001,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+LyallADFJobsPreview,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+pipeline4,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6588731230599605687,field-eng
+pipeline5,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,0,1,False,True,0,2986451988485003859,field-eng
+pipeline1,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+sash-test-create-temp-view-pipe,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+reynolds-pravindev-dbx-job,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,-1946596162718391815,field-eng
+sash-test-pipe-1,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,1784216642942851348,field-eng
+pipeline2,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,1,False,False,0,-1099820453846087834,field-eng
+Test01,pepsi0adf-test-nm001,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipeline6,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,1,False,False,0,-1099820453846087834,field-eng
+DataFlowTesting_copy1,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6588731230599605687,field-eng
+pipeline1_UC_workspace,vishu-adf-dbi,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,0,False,False,0,-2241954787027104022,field-eng
+pipeline1_standard_workspace,vishu-adf-dbi,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,0,False,False,0,-2241954787027104022,field-eng
+mb-test,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,3281810612793716066,field-eng
+scala code test run,vishu-adf-dbi,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+LyallADF,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,7908883273554468382,field-eng
+DataFlowTesting,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6588731230599605687,field-eng
+pipeline1_premium_workspace,vishu-adf-dbi,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,0,False,False,0,-2241954787027104022,field-eng
+Serverless Jobs Test,canada-eh-data-factory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1458777991191879360,field-eng
+20250516_tech_brief,hinak-adf-ejp,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+Trigger Workflow,canada-eh-data-factory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,1,False,False,0,-799679732793681488,field-eng
+One-time Run - Serverless,canada-eh-data-factory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,5,1,False,False,0,-799679732793681488,field-eng
+sqldb_to_delta,ronguerreroadf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,5798964148247319941,field-eng
+Extract Parquet to SQLDW,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+Import Telemetry 2,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,0,False,False,2,-4250162363531082089,field-eng
+GetJobPermissions,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,1,False,False,0,6267778854561202462,field-eng
+RunADBjob,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Import Telemetry,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-4250162363531082089,field-eng
+VariablesScratch,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,2,False,False,0,847619786361347210,field-eng
+MaxConcurrentRuns,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+DeltaSinkPipe,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6588731230599605687,field-eng
+DatabricksParameter,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,-2241954787027104022,field-eng
+PermissionsTest,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,2,False,False,0,7018788535878574934,field-eng
+TestPython,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2645640928322612454,field-eng
+DatabrickParametersReturn,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,3,False,False,0,1712894552685185302,field-eng
+csvtojson,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6588731230599605687,field-eng
+DatabricksParameterPool,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,-2241954787027104022,field-eng
+Parent-Child-Test,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Databricks_Cluster_test1,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,1,0,False,True,0,2986451988485003859,field-eng
+Databricks_Cluster_List_MI,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,1,0,False,True,0,2986451988485003859,field-eng
+ClusterIDLookup,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,0,False,False,0,6267778854561202462,field-eng
+Databricks_Fullpath_Notebook_MI,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+SetJobPermissions,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6267778854561202462,field-eng
+MDF1,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,6588731230599605687,field-eng
+Databricks_Interactive_Cluster,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Azure CDC,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6588731230599605687,field-eng
+Parametised_Interactive_Cluster,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,-2241954787027104022,field-eng
+Databricks_ClusterName2ClusterID_Interactive_Submit_Pipeline,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,5,1,False,False,0,1412904756446449219,field-eng
+Run Serverless ADB Job REST,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6267778854561202462,field-eng
+LookupAndLoop,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,1,False,False,0,-2631841894733265129,field-eng
+Databricks_Cluster_List_and_Select_MI,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,Likely,Medium,parameterized_datasets,1,0,False,True,0,-4830367136025392648,field-eng
+CopyPipeline_zxz,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+pipeline1,apj-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1946596162718391815,field-eng
+aso-pipeline-udmi-1,apj-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+aso-pipeline-udmi-2,apj-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+Databricks_ClusterName2ClusterID_Interactive_Submit,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,1652956713070876274,field-eng
+pl_child_pipeline,amanpsdatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,1506450934327738926,field-eng
+SimpleNotebook,adf-laurent,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,7908883273554468382,field-eng
+ADB_Test_Pool,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+taxi_data_pipeline,ps-west-europe-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,0,False,False,0,7746213152232064267,field-eng
+cluster_list,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,0,False,False,0,5740354900026072187,field-eng
+Pipeline-UC-Interactive,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pl_databricks_test,amanpsdatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,7908883273554468382,field-eng
+MedalionDatabricks,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1605358778252954976,field-eng
+MedalionDatabricks2,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1605358778252954976,field-eng
+pl_parent_pipeline,amanpsdatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,1784216642942851348,field-eng
+MT API Call,adf-laurent,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,1,False,False,0,6338217463165230401,field-eng
+read_delta_dataset,amanpsdatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,2,False,False,0,6889776642894655109,field-eng
+taxi_data_pipeline_uc_migration,ps-west-europe-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,0,False,False,0,7746213152232064267,field-eng
+pipeline1,adf-ut41f,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+run_job,adf-ut41f,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,1,3,False,False,0,8406692345464352492,field-eng
+SOAP_API_call,adf-demo-snehil,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,1,False,False,0,-2631841894733265129,field-eng
+Pipeline-UC-Job,AzureGoFast,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+PL_EXEC_ADB_Workflow,ps-west-europe-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,1,False,False,0,7582014479619549700,field-eng
+Databricks - Trigger Workflow,ps-west-europe-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,1,False,False,0,-799679732793681488,field-eng
+re_use_pipe,adf-ut41f,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,1,False,False,0,2093594434085606823,field-eng
+pipeline1,adf-demo-snehil,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,7908883273554468382,field-eng
+pipeline1,monusine,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,2,1,False,False,0,-2351939040664257982,field-eng
+pipeline2,adf-demo-snehil,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2771063070316373290,field-eng
+pipeline1,adf-jaspertesting-001,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-8753497827991233192,field-eng
+Databricks - Run Serverless Notebook,monusine,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,5,1,False,False,0,885399939751762415,field-eng
+pipeline1,mweu-adf-d-kanchwala-001,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+Execute notebook compute,monusine,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+onboarding1,craig-test-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,1,False,False,0,6338217463165230401,field-eng
+pipeline1,test-adf-btafur,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,1,False,False,0,7582014479619549700,field-eng
+DatabricksJobTrigger,test-adf-btafur,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,4,1,False,False,0,-4840318173885224883,field-eng
+ks02-notebook-test,ks02-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+CopyPipeline_otis_adls_gen2,adf-otis-cosmosdb,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+pipeline1,bnelsondatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipeline2,adf-fries-mohammad-khelghati-databricks-com,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-6337878425566165800,field-eng
+pipeline1,adf-fries-mohammad-khelghati-databricks-com,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2764960385373764066,field-eng
+movefromcsv,rrcadfvivo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+Databricks - Run Serverless Notebook,ps-west-europe-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,5,1,False,False,0,885399939751762415,field-eng
+CopyPipeline_adls_cosmos,adf-otis-cosmosdb,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+pipeline2test,volvo-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,6267778854561202462,field-eng
+tomi_dummy_pipeline,bnelsondatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipeline2,bnelsondatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+pipeline1,volvo-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipe_babynameProcess,wyiadf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-1605358778252954976,field-eng
+copy_salesforce,bilal-salesforce-factory,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,1,0,False,False,0,1784216642942851348,azure-test-pm
+CopyADLStoDeltaLake,adf-fe-uae-01,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,2986451988485003859,field-eng
+pipeline1,guanjie-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipeline1,bilal-cicd,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,1506450934327738926,azure-test-pm
+Execute databricks job,volvo-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,3,1,False,False,0,-4840318173885224883,field-eng
+control_flow,competitive-factory,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,4,False,False,0,-4009722704697940390,azure-test-pm
+managedIRtest,bnelsondatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+pipeline2,chang-fwd-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,No,N/A,,0,0,False,False,0,-2241954787027104022,field-eng
+CopyPipeline_g4l,ray-data-factory-1,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,2986451988485003859,azure-test-pm
+CopyPipeline_lem,ray-data-factory-1,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,2986451988485003859,azure-test-pm
+pl_ingest_population_data,adf-adr,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,479036362938243066,azure-test-pm
+pl_ingest_ecdc_data,adf-adr,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,-2631841894733265129,azure-test-pm
+pl_process_cases_and_deaths_data,adf-adr,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,6588731230599605687,azure-test-pm
+databricks_job_web_activity,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,4,2,False,False,0,4795924942975364878,azure-test-pm
+databricks_job_hello_world,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,4,2,False,False,0,-4840318173885224883,azure-test-pm
+CopyPipeline_ivn,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,2986451988485003859,azure-test-pm
+Copy_JSON_to_Parquet_Snappy,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,3981341635124570997,azure-test-pm
+CopyPipeline_Yellow_Parquet,tfayyaz-west-us-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,2986451988485003859,azure-test-pm
+pipeline1,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,7908883273554468382,azure-test-pm
+databricks_uc_test_none_accessmode,pmt-adf-west-us,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,-2241954787027104022,azure-test-pm
+CopyPipeline_bn5,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,2986451988485003859,azure-test-pm
+databricks_uc_test_shared_policy,pmt-adf-west-us,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,-2241954787027104022,azure-test-pm
+pl_adriana,pmt-adf-west-us,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,-2241954787027104022,azure-test-pm
+Attempt 2,adf-tanishq,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,3,1,False,False,0,-4840318173885224883,azure-test-pm
+FileArrivalANDTableUpdate,adf-tanishq,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,3,0,False,False,0,-2241954787027104022,azure-test-pm
+Master pipeline 2,adf-tanishq,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,-1458777991191879360,azure-test-pm
+Multiple Schedules,adf-tanishq,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,-2241954787027104022,azure-test-pm
+HelloWorldManual,adf-tanishq,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,-2241954787027104022,azure-test-pm
+Execute Databricks Job using MI,adf-tanishq,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,3,1,False,False,0,-4840318173885224883,azure-test-pm
+HelloWorld,adf-tanishq,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,-2241954787027104022,azure-test-pm
+pipeline1,saad-dev-factory,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,1506450934327738926,azure-test-pm
+DatabricksNotebooks,adf-runs,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,2986451988485003859,azure-test-pm
+CopyPipeline_nmh,pmt-adf-jason-ping-sftp,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,2986451988485003859,azure-test-pm
+NativeDatabricksJobPipeline,pmt-adf-eastus2-tahir,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,-8753497827991233192,azure-test-pm
+MetadataDrivenCopyTask_tdk_MiddleLevel,rayzhu-sf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,7,0,False,False,1,1784216642942851348,azure-test-pm
+CopyPipeline_vgw,rayzhu-sf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,2986451988485003859,azure-test-pm
+pipeline_warehousemigration_load,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+pipeline_warehousemigration_customer,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+pipeline1,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+MetadataDrivenCopyTask_tdk_TopLevel,rayzhu-sf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,3,0,False,False,1,-2631841894733265129,azure-test-pm
+taxi_data_pipeline,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+CopyPipeline_jason_sftp_test_dale_server,pmt-adf-jason-ping-sftp,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,2986451988485003859,azure-test-pm
+CUJ_FF_01_PL,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,3571607444206982553,
+MetadataDrivenCopyTask_tdk_BottomLevel,rayzhu-sf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,1,0,False,False,0,1784216642942851348,azure-test-pm
+TestDatabricksNotebookPipeline,pmt-adf-eastus2-tahir,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,-2241954787027104022,azure-test-pm
+TriggerServerlessDatabricksJob,pmt-adf-eastus2-tahir,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,No,N/A,,0,0,False,False,0,-4840318173885224883,azure-test-pm
+aw_test_pipeline,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+PoliceDataLoad,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+pipeline_to_warehouse_copy,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+loaddw_from_lh,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+pipeline_to_lakehouse_single_file,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+LoadUKPropertyCSV,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+LoadfromLakehouse,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+warehousemigration_pipeline3,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+LoadUKPropertyCSV_CUJ5,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+pipeline_to_lakehouse,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+pipeline_parquet,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,3981341635124570997,
+pipeline_to_warehouse_single_file,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+pipeline_to_warehouse_single_file_2,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+getadlsdata_test2,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+pipeline2,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+taxi_data_notebook_pipeline,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,-7678630930265881405,
+testtriggers_wasim,pmt_fabric_ws,Fabric,,No,N/A,,6,0,False,False,0,2986451988485003859,
+warehousemigration_pipeline4,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,3981341635124570997,
+warehousemigration_pipeline5,pmt_fabric_ws,Fabric,,No,N/A,,1,0,False,False,0,1784216642942851348,
+incremental-ingestion,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+incremental-ingestion_copy1,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+incremental-ingestion2,pmt_fabric_ws,Fabric,,No,N/A,,2,0,False,False,0,2986451988485003859,
+cuj_summer_02,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+pipeline9,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+Factory_Data_Ingest,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+Taxi_pipeline_for_each,pmt_fabric_ws,Fabric,,No,N/A,,1,0,False,False,0,1784216642942851348,
+nyc_taxi_pipeline,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,
+cloudflare_logs_ingest,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,797687232874947192,
+lh_for_DL_capacity_test,pmt_fabric_ws,Fabric,,No,N/A,,0,0,False,False,0,2986451988485003859,

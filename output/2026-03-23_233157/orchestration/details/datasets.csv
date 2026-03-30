@@ -1,0 +1,224 @@
+name,type,factory_name,factory_type,subscription_id,subscription_name,linked_service_name,folder,schema_columns,parameter_count,pipelines_using_it
+ChangeTrackingDataset,SqlServerTable,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,
+SourceDataset,SqlServerTable,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,3,0,"FullCopyPipeline, IncrementalCopyPipeline"
+SinkDataset,DelimitedText,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,"FullCopyPipeline, IncrementalCopyPipeline"
+AzureDatabricksDeltaLakeDataset1,AzureDatabricksDeltaLakeDataset,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,pipeline2
+AzureSqlTable1,AzureSqlTable,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,14,0,pipeline2
+NR_test,AzureDatabricksDeltaLakeDataset,peteh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,
+AzureDatabricksDeltaLakeDataset1,AzureDatabricksDeltaLakeDataset,mido-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+SourceDataset_jnq,Binary,rkh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,CopyPipeline_jnq
+SourceDataset_20v,DelimitedText,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,6,0,
+DestinationDataset_jnq,Binary,rkh-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,CopyPipeline_jnq
+AzureDatabricksDeltaLakeDataset1,AzureDatabricksDeltaLakeDataset,abdi-test-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,22,0,
+SnowflakeTable2,SnowflakeTable,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,8,0,
+DelimitedText1,DelimitedText,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+Delimited_jyo_db,DelimitedText,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+SnowflakeTable1,SnowflakeTable,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,8,0,pipeline1
+Parquet_dynamic,Parquet,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,1,
+DelimitedText_foreach_copy,DelimitedText,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,1,
+DelimitedText_dynamice,DelimitedText,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,1,
+Snowflake_dynamic_jyo_db,SnowflakeTable,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+Parquet1,Parquet,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipeline1
+Snowflake_dynamic_jyo_db_param,SnowflakeTable,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,3,
+SnowflakeTable2_copy1,SnowflakeTable,Jyo-1204-ADF-snowflake,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,8,0,
+Parquet1,Parquet,fieldeng-migrations,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,18,0,sureshm_test1
+Avro1,Avro,fieldeng-migrations,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,sureshm_test1
+Parquet2,Parquet,weather-pipeline-mglbe,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipeline1
+Parquet1,Parquet,weather-pipeline-mglbe,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,15,0,pipeline1
+BLOB_source,Binary,jl-adf-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+ADLS_Sink,Binary,jl-adf-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+dsInput,DelimitedText,jl-adf-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,8,0,sftp-to-adls-pipeline
+dsSink,DelimitedText,jl-adf-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,8,0,sftp-to-adls-pipeline
+unzip,Binary,cdg-rsm-tester,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipe_zipper
+zipped,Binary,cdg-rsm-tester,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipe_zipper
+insiderThreatParquetData_file,Parquet,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+insiderThreatParquetData_email,Parquet,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+Carriers,DelimitedText,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,
+insiderThreatSourceData_logon,DelimitedText,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,5,0,
+facts_json_sink,Json,ghanse-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,pipeline2
+dataflowtestoutput,Parquet,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+insiderThreatParquetData_http,Parquet,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+insiderThreatParquetData_device,Parquet,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+insiderThreatSourceData_file,DelimitedText,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,9,0,
+InputSchoolData,DelimitedText,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,25,0,
+AirportData,DelimitedText,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,
+insiderThreatSourceData_email,DelimitedText,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,12,0,
+Airline_data,DelimitedText,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,
+CancellationDAta,DelimitedText,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,
+AzureDatabricksDeltaLakeDataset1,AzureDatabricksDeltaLakeDataset,ghanse-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+insiderThreatSourceData_devices,DelimitedText,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,6,0,
+insiderThreatSourceData_http,DelimitedText,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,6,0,
+DestinationDataset_20v,Parquet,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+DelimitedText1,DelimitedText,ghanse-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,5,0,pipeline2
+Delays,DelimitedText,ganeshrj-df-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,
+insiderThreatParquetData_logon,Parquet,stuart-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+DelimitedText2,DelimitedText,ghanse-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,5,0,pipeline2
+facts_json,Json,ghanse-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipeline2
+DelimitedText2,DelimitedText,ADF-kmati,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipeline1
+AzureSqlTable2,AzureSqlTable,ADF-kmati,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,6,0,csvToSql
+SourceDataset_x9k,AzureDatabricksDeltaLakeDataset,mm-test-df,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,CopyPipeline_x9k
+AzureSqlTable1,AzureSqlTable,ADF-kmati,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+DelimitedText1,DelimitedText,ADF-kmati,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,12,0,pipeline1
+DestinationDataset_5ze,DelimitedText,DemoTelevisa,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,Copy Test
+DelimitedText3,DelimitedText,ADF-kmati,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,6,0,csvToSql
+SourceDataset_5ze,Json,DemoTelevisa,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,Copy Test
+DestinationDataset_x9k,DelimitedText,mm-test-df,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,CopyPipeline_x9k
+DS_Source_Parquet,Parquet,steven-psa-orchestration,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,6,1,
+DS_Sink_Parquet,Parquet,steven-psa-orchestration,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,2,
+AzureDataLakeStorageFile1,AzureBlobFSFile,scott-black-data-factory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipeline1
+DestinationDataset_v4c,AzureBlobFSFile,scott-black-data-factory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,1,
+OnPremDB,DelimitedText,CSEdemoDataFactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+SourceDataset_v4c,AzureSqlTable,scott-black-data-factory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,1,
+DataRawCustomerAddresses,AzureBlobFSFile,scott-black-data-factory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipeline1
+CustomerAddresses,AzureSqlTable,scott-black-data-factory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipeline1
+AzureSqlTable1,AzureSqlTable,scott-black-data-factory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipeline1
+AdventureWorksOLTPTable,AzureSqlTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,9,1,"Ingest AdventureWorksOLTP to Databricks Workflow, Ingest AdventureWorksOLTP to Landing, Ingest AdventureWorksOLTP to Landing Test, Ingest AdventureWorksOLTP to Landing_JSON"
+MetadataDrivenCopyTask_nam_ControlDS,AzureSqlTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,MetadataDrivenCopyTask_nam_20210721,0,0,
+ADLSLandingZoneJson,Json,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,1,Ingest AdventureWorksOLTP to Landing_JSON
+ADLSLandingZone,Parquet,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,1,"Excel, Ingest AdventureWorksOLTP to Databricks Workflow, Ingest AdventureWorksOLTP to Landing, Ingest AdventureWorksOLTP to Landing Test, fleetmaintenance-copy_toDelta_copy1"
+AzureSqlTable1,AzureSqlTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,4,0,
+OdbcTable1,OdbcTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,DBSQL_ODBC
+Parquet1,Parquet,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+MetadataDrivenCopyTask_nam_DestinationDS,Parquet,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,MetadataDrivenCopyTask_nam_20210721,0,3,
+ds_sql_fleetmaintenance,AzureSqlTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,3,0,"fleetmaintenance-copy, fleetmaintenance-copy_detailed, fleetmaintenance-copy_toDelta, fleetmaintenance-copy_usingJob"
+ds_sql_fleetmaintenance2,AzureSqlTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,3,0,Delta-copyTo-fleetmaintenance
+MetadataDrivenCopyTask_nam_SourceDS,AzureSqlTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,MetadataDrivenCopyTask_nam_20210721,0,2,
+ds_sql_fleetmaintenance3,AzureSqlTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,3,0,Delta-copyTo-fleetmaintenance2
+PowerOutput,AzureSqlTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,4,0,
+DS_ODBCGEN,OdbcTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,2,PL_ODBC_Decrypt_Generic
+RestResource1,RestResource,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+NewDataBlob,DelimitedText,CSEdemoDataFactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+DS_Folder,Binary,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,1,
+ds_adls_parquet,Parquet,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,2,
+AzureDatabricksDeltaLakeDataset,AzureDatabricksDeltaLakeDataset,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,2,"Delta-copyTo-fleetmaintenance, fleetmaintenance-copy_toDelta, fleetmaintenance-copy_toDelta_copy1"
+DS_SQL_Generic,SqlServerTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,4,"PL_GENERIC_INGEST_WATERMARK, PL_Generic_Full_Load, PL_Generic_SQL_CHANGETRACKING"
+DS_FileParam,Binary,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,2,
+Binary2,Binary,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipeline1
+ds_adls_parquet_maintenanceheader,Parquet,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,2,"fleetmaintenance-copy, fleetmaintenance-copy_detailed, fleetmaintenance-copy_usingJob"
+DS_ADLSGEN2,Parquet,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,2,"PL_GENERIC_INGEST_WATERMARK, PL_Generic_Full_Load, PL_Generic_SQL_CHANGETRACKING, PL_ODBC_Decrypt_Generic"
+source_sql_table,AzureSqlTable,nshetty-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,3,2,
+LS_ADLS_Binary,Binary,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,2,
+Binary1,Binary,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipeline1
+Excel1,Excel,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,Excel
+DS_SQL_Config,SqlServerTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,13,0,
+DataDestination,DelimitedText,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,2,
+Json1,Json,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+AzureSqlDatabaseDataSource,AzureSqlTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+AzureSqlDatabaseExternal_ControlTable,AzureSqlTable,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,1,
+sink_json_file,Json,nshetty-test,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,2,
+AzureDatabricksDeltaLakeDataset2,AzureDatabricksDeltaLakeDataset,laf-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,2,Delta-copyTo-fleetmaintenance2
+Parquet1,Parquet,dthomfactorytest,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+DelimitedText1,DelimitedText,dthomfactorytest,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+JsonFromADLS,Json,adf-kuldeep-demo01,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,
+AzureDatabricksDeltaLakeDataset1,AzureDatabricksDeltaLakeDataset,adf-csc168,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,DeltaLakeAccessUCDemo
+DelimitedText1,DelimitedText,adf-csc168,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,1,0,DeltaLakeAccessUCDemo
+RestResource1,RestResource,dthomfactorytest,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+azuresqloutput,Parquet,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+dbrookes_csv_sink,DelimitedText,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,9,1,dbrookes_sales_pipeline
+DestinationDataset_fd9,AzureSqlTable,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,Copy_win_totals
+AzureSQL_MaintenanceDemo_ADFTest,AzureSqlTable,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,4,0,005 - Ingest to Delta Lake via Copy
+S_dbdemos_c360__churn_orders,AzureDatabricksDeltaLakeDataset,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,AjinkyaN_datasets,6,0,CopyDatabricksToADLS
+NedParquet,Parquet,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,005 - Ingest to Delta Lake via Copy
+D_dbdemos_c360__churn_orders,DelimitedText,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,AjinkyaN_datasets,0,0,CopyDatabricksToADLS
+titanicblob,DelimitedText,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,mb-test
+ds_sql_fleetmaintenance,AzureSqlTable,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,3,0,
+Parquet2,Parquet,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,12,0,dbx_scb_aj_copy_convert
+Parquet1,Parquet,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,12,0,dbx_scb_aj_copy_convert
+dbrookes_csv_source,DelimitedText,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,1,dbrookes_sales_pipeline
+SourceDataset_fd9,AzureDatabricksDeltaLakeDataset,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,Copy_win_totals
+titanic,DelimitedText,oneenv-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,mb-test
+DelimitedText1,DelimitedText,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+swdataset,DelimitedText,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,2,pipeline5
+PipeWithRecordCntOutputDataset,DelimitedText,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+SampleDataset_src,DelimitedText,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,
+AzureSqlTable1,AzureSqlTable,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,7,0,
+DelimitedText2,DelimitedText,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+AzureSqlTable2,AzureSqlTable,adf-sash-demo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,5,0,
+adls_source_table,Parquet,ronguerreroadf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,sqldb_to_delta
+Binary2,Binary,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,Import Telemetry
+CosmosDbSqlApiCollection1,CosmosDbSqlApiCollection,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,
+Json1,Json,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+SynapseScratch,AzureSqlDWTable,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,Extract Parquet to SQLDW
+Binary1,Binary,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,Import Telemetry
+telemetry,Binary,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,Import Telemetry 2
+Json3,Json,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,
+Json4,Json,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+DestinationDataset_zxz,AzureSqlDWTable,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,13,0,CopyPipeline_zxz
+SourceDataset_zxz,AzureSqlTable,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,13,0,CopyPipeline_zxz
+Parquet1,Parquet,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+SynapseOrbits,AzureSqlDWTable,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+cluster_list,DelimitedText,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,3,2,"Databricks_Cluster_List_MI, Databricks_Cluster_List_and_Select_MI, Databricks_Cluster_test1"
+DeltaLake,Parquet,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,7,0,Extract Parquet to SQLDW
+Json2,Json,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+ListClusters,RestResource,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,1,Databricks_Cluster_test1
+simplespectra,DelimitedText,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,13,0,
+datadrop,Binary,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,Import Telemetry 2
+simplespectrajson,Json,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,
+ListClusters_MI,RestResource,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,1,"Databricks_Cluster_List_MI, Databricks_Cluster_List_and_Select_MI"
+azuresqlairplanes,AzureSqlTable,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,4,0,
+cluster_list_mdf,DelimitedText,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+dboCapitals,AzureSqlTable,jok-adf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,Azure SQL,3,0,
+sqldb_source_table,AzureSqlTable,ronguerreroadf,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,9,0,sqldb_to_delta
+aman_delta_lake_table,AzureDatabricksDeltaLakeDataset,amanpsdatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,14,0,
+Xml3,Xml,adf-demo-snehil,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+DelimitedText1,DelimitedText,adf-demo-snehil,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,55,0,
+DelimitedText2,DelimitedText,adf-demo-snehil,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,55,1,
+Json1,Json,adf-demo-snehil,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+Parquet1,Parquet,adf-demo-snehil,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+DelimitedText3,DelimitedText,adf-demo-snehil,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+Xml2,Xml,adf-demo-snehil,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+DestinationDataset_kwj,Parquet,adf-otis-cosmosdb,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,CopyPipeline_otis_adls_gen2
+DestinationDataset_fmo,CosmosDbSqlApiCollection,adf-otis-cosmosdb,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,CopyPipeline_adls_cosmos
+DestinationDataset_efm,AzureSqlTable,rrcadfvivo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,movefromcsv
+SourceDataset_fmo,Json,adf-otis-cosmosdb,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,2,0,CopyPipeline_adls_cosmos
+TomiBinary,Binary,bnelsondatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+Parquet1,Parquet,bnelsondatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+AzureDatabricksDeltaLakeDataset1,AzureDatabricksDeltaLakeDataset,bnelsondatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipeline2
+DelimitedText1,DelimitedText,bnelsondatafactory,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipeline2
+SourceDataset_efm,DelimitedText,rrcadfvivo,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,11,0,movefromcsv
+SourceDataset_kwj,CosmosDbSqlApiCollection,adf-otis-cosmosdb,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,CopyPipeline_otis_adls_gen2
+DestinationDataset_2da,DelimitedText,bilal-salesforce-factory,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,1,
+Parquet1,Parquet,mweu-adf-d-kanchwala-001,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,pipeline1
+UC_ADFTest02,AzureDatabricksDeltaLakeDataset,adf-fe-uae-01,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,CopyADLStoDeltaLake
+UC_ADFTest01,AzureDatabricksDeltaLakeDataset,adf-fe-uae-01,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+SourceDataset_2da,SalesforceObject,bilal-salesforce-factory,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,1,
+ADLS_File01,DelimitedText,adf-fe-uae-01,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,CopyADLStoDeltaLake
+AzureSql_Tab01,AzureSqlTable,adf-fe-uae-01,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,4,0,
+ADLS_File02,DelimitedText,adf-fe-uae-01,ADF,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,,,0,0,
+MetadataDrivenCopyTask_tdk_SourceDS,DelimitedText,rayzhu-sf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,MetadataDrivenCopyTask_tdk_20231208,0,7,
+DestinationDataset_lem,DelimitedText,ray-data-factory-1,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,CopyPipeline_lem
+SourceDataset_g4l,DelimitedText,ray-data-factory-1,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,34,0,CopyPipeline_g4l
+ds_population_raw_gz,DelimitedText,adf-adr,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,
+ds_ecdc_raw_csv_dl,DelimitedText,adf-adr,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,1,
+ds_acdc_file_list,Json,adf-adr,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,2,0,
+ds_population_raw_tsv,DelimitedText,adf-adr,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,
+ds_raw_cases_and_deaths,DelimitedText,adf-adr,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,9,0,
+ds_country_lookup,DelimitedText,adf-adr,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,5,0,
+ds_processed_cases_and_deaths,DelimitedText,adf-adr,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,
+DestinationADLSGen2_adf_ingestion_raw_cloudflare_logs_raw,Parquet,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,Copy_JSON_to_Parquet_Snappy
+SourceDataset_ivn,Json,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,2,0,CopyPipeline_ivn
+DestinationDataset_ivn,Parquet,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,CopyPipeline_ivn
+SourceDataset_72z,Json,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,2,0,
+SourceAdlsGen2_machine_logs_multilinejson,Json,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,2,0,Copy_JSON_to_Parquet_Snappy
+DestinationADLSGen2_adf_ingestion_raw_cloudflare_logs_raw_copy1,Parquet,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,Copy_JSON_to_Parquet_Snappy
+SourceAdlsGen2_cloudflare_logs_multilinejson,Json,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,2,0,Copy_JSON_to_Parquet_Snappy
+cloudflare_logs_raw_copy_demo_json,Json,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,CopyPipeline_bn5
+SourceDataset_bn5,Json,tfayyaz-ne-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,2,0,CopyPipeline_bn5
+DestinationDataset_k3m,AzureDatabricksDeltaLakeDataset,tfayyaz-west-us-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,23,0,CopyPipeline_Yellow_Parquet
+SourceDataset_k3m,Parquet,tfayyaz-west-us-adf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,23,0,CopyPipeline_Yellow_Parquet
+DestinationDataset_354,Parquet,adf-runs,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,1,
+SalesforceObject1,SalesforceObject,adf-runs,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,DatabricksNotebooks
+SourceDataset_354,AzureMySqlTable,adf-runs,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,1,
+people,SqlServerTable,adf-runs,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,2,0,
+MetadataDrivenCopyTask_tdk_ControlDS,AzureSqlTable,rayzhu-sf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,MetadataDrivenCopyTask_tdk_20231208,0,0,
+DestinationDataset_1s2,DelimitedText,pmt-adf-jason-ping-sftp,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,CopyPipeline_jason_sftp_test_dale_server
+SourceDataset_vgw,DelimitedText,rayzhu-sf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,6,0,CopyPipeline_vgw
+SourceDataset_1s2,DelimitedText,pmt-adf-jason-ping-sftp,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,28,0,CopyPipeline_jason_sftp_test_dale_server
+MetadataDrivenCopyTask_tdk_DestinationDS,DelimitedText,rayzhu-sf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,MetadataDrivenCopyTask_tdk_20231208,0,7,
+SourceDataset_nmh,Binary,pmt-adf-jason-ping-sftp,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,CopyPipeline_nmh
+DestinationDataset_vgw,DelimitedText,rayzhu-sf,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,CopyPipeline_vgw
+AccountsParquet,Parquet,adf-runs,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,DatabricksNotebooks
+DestinationDataset_nmh,Binary,pmt-adf-jason-ping-sftp,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,CopyPipeline_nmh
+ds_ecdc_raw_csv_http,DelimitedText,adf-adr,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,2,
+DestinationDataset_g4l,DelimitedText,ray-data-factory-1,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,0,0,CopyPipeline_g4l
+SourceDataset_lem,DelimitedText,ray-data-factory-1,ADF,5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,,,34,0,CopyPipeline_lem

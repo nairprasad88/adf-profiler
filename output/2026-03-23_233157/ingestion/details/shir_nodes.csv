@@ -1,0 +1,8 @@
+factory_name,irName,nodeName,machineName,status,maxConcurrentJobs,estimatedCores,availableMemoryMB,cpuUtilizationPct,concurrentJobsRunning,concurrentJobsLimit,sentBytes,receivedBytes,version,lastConnectTime,lastStartTime,totalMemoryMB,vmSize,subscription_name
+fe-cis-imrans-adf,ire-1,fe-cis-imrans-p,fe-cis-imrans-p,Offline,24,0,3887,1,0,6,0.0,0.0,UpToDate,2026-03-19T05:03:51.4987783Z,2026-03-18T20:08:27.7409716Z,,,field-eng
+laf-adf,integrationRuntime1,laf-vm-pltest,laf-vm-pltest,Offline,96,0,28951,20,0,24,3.117546796798706,8.836976051330566,Expired,2024-09-24T11:57:00.8627723Z,2024-09-24T11:51:17.2109365Z,,,field-eng
+peteradfcuj,peterintegrationruntime,EC2AMAZ-D9VIOKG,EC2AMAZ-D9VIOKG,Offline,96,0,25903,1,0,24,0.0,0.0,UpToDate,2026-03-11T01:59:53.4538758Z,2026-03-10T04:33:11.6658597Z,,,azure-test-pm
+laf-adf,integrationRuntime2,WINDOWS-JDA4569,WINDOWS-JDA4569,Offline,16,0,472,0,0,4,6.7150115966796875,64.2297592163086,UpToDate,2025-07-24T20:19:44.216852Z,2025-07-24T19:52:42.9721247Z,,,field-eng
+nshetty-test,nshetty-performance-ir,nshetty-perform,nshetty-perform,Offline,96,8,26921,5,0,24,0.22446708381175995,0.18760812282562256,UpToDate,2026-02-02T23:00:45.4898786Z,2026-02-02T13:07:59.9990226Z,32768.0,Standard_D8s_v3,field-eng
+ganeshrj-df-demo,integrationRuntime1,ganeshrje2vm,ganeshrje2vm,Offline,56,0,12979,3,0,14,0.0,0.0,Expired,2022-09-26T19:09:00.8426667Z,2022-09-15T03:16:55.4996557Z,,,field-eng
+stuart-adf,stuartADFSQLlink,stuartsql,stuartsql,Offline,20,0,4173,36,0,5,16.576313018798828,3.932907819747925,Expired,2019-11-13T17:13:42.0370558Z,2019-11-13T16:42:52.0007668Z,,,field-eng

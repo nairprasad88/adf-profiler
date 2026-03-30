@@ -1,0 +1,3 @@
+subscription_id,total_runs,succeeded_runs,failed_runs,total_cost,factory_count,pipeline_count,subscription_name,success_rate
+3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,296,249,46,13.1668,3,3,field-eng,84.1
+5685e448-8271-4cf2-b2d2-4f030db888b9,289,47,242,4.1499,4,8,azure-test-pm,16.3

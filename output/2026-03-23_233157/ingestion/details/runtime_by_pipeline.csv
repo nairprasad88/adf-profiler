@@ -1,0 +1,3 @@
+pipelineName,factory_name,subscription_id,total_copy_runs,avg_duration_sec,max_duration_sec,total_data_read_bytes,total_data_written_bytes,total_rows_copied,total_estimated_cost,dominant_ir_type,avg_dius_used,subscription_name,runs_per_day_avg
+pipeline_table_ingestion,steven-psa-orchestration,3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,1,13.0,13,24616,1588,8,0.017667,azure_ir,4.0,field-eng,0.01
+pl_ingest_ecdc_data,adf-adr,5685e448-8271-4cf2-b2d2-4f030db888b9,180,12.427777777777777,42,703571598,703571598,0,3.1800599999999997,azure_ir,4.0,azure-test-pm,2.0

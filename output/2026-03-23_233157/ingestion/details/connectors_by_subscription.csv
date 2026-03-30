@@ -1,0 +1,16 @@
+subscription_id,subscription_name,connector_type,count_as_source,count_as_sink,factory_count_using_it
+3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Azure Cosmos DB,1,1,1
+3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Azure SQL Database,51,5,7
+3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Azure Synapse Analytics (SQL Pool),0,2,1
+3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Blob,1,1,1
+3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Databricks Delta Lake,7,4,7
+3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",27,87,23
+3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,HTTP,1,0,1
+3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,ODBC,2,1,1
+3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,REST API,3,0,1
+3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,SQL Server (on-premises),7,0,3
+3f2e4d32-8e8d-46d6-82bc-5bb8d962328b,field-eng,Snowflake,1,0,1
+5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Databricks Delta Lake,0,1,1
+5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,"Files (ADLS Gen2, Blob Storage, File Storage, etc.)",8,10,6
+5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,SFTP,2,0,1
+5685e448-8271-4cf2-b2d2-4f030db888b9,azure-test-pm,Salesforce,1,0,1
